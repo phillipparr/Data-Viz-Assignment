@@ -3,22 +3,42 @@
     return {
       "Job Title": d["Job Title"],
       "Level": d["Level"],
-      "Annual Mean": parseFloat(+d["Annual Mean"].split(',').join(''))
+      "Annual Mean": parseFloat(+d["Annual Mean"].split(',').join('')),
+      "Group": d["Group"]
     };
   }
 // Open the csv
   d3.csv("nyc_salary.csv", rowConverter, function(data){
-    // console.log(data)
+  var nested_jobs = d3.nest()
+            .key(function(d){ return d.Group;})
+            .entries(data)
+
+//Dropdown change function
+    for (let i=0; i < nested_jobs.length; i++) {
+      let menuItem = document.createElement("li");
+      menuItem.appendChild(document.createTextNode(nested_jobs[i].key));
+      document.getElementById("dropdown").appendChild(menuItem);
+      // menuItem.addEventListener("click", function(){
+      //   group = nested_jobs[i].key
+      //   document.getElementById("title").innerHTML = group
+      //   bar_chart(group, );
+      // });
+    }
+
     var job_titles = []
     function major_job_titles(d) {
       for(var i=0; i<d.length; i++) {
-        if(d[i].Level == "major") {
+        if(d[i].Level == 'total') {
+          job_titles.push(d[i])
+        }
+        else if(d[i].Level == "major") {
         job_titles.push(d[i])
         }
       }
     }
     major_job_titles(data);
-    // console.log(job_titles[0])
+    console.log(job_titles)
+    console.log(job_titles.map(function (d){ return d['Job Title']; }))
 
 
     var width = 700;
@@ -43,13 +63,11 @@
 
     var y_scale = d3.scaleBand()
       .range([height,0])
-      .domain(job_titles.map(function (d){ return d['Job Title']; }))
       .paddingInner(0.1);
 
 
     var x_scale = d3.scaleLinear()
       .range([0, width])
-      .domain([0, d3.max(job_titles, function(d){return d['Annual Mean']})]);
 
     var x_axis = d3.axisBottom(x_scale);
 
@@ -81,10 +99,47 @@
       .attr("class", "tooltip")
       .style("opacity", 0);
 
-    function barChart(job_titles) {
+// console.log(nested_jobs.map(function(d) { return d.key}))
+
+
+    function bar_chart(job_group, group_data) {
+      function job_list(job_group) {
+        job_list = []
+        group = []
+        for (var i = 0; i<nested_jobs.length; i++) {
+          if (nested_jobs[i].key == job_group) {
+            group.push(nested_jobs[i].values)
+            one = nested_jobs[i].values
+            for (var i = 0; i<one.length; i++) {
+                job_list.push(one[i]['Job Title'])
+              }
+            }
+          }
+          return job_list
+        }
+    function annual_means(job_group) {
+      group = []
+      annual_means = []
+      for (var i = 0; i<nested_jobs.length; i++) {
+        if (nested_jobs[i].key == job_group) {
+          group.push(nested_jobs[i].values)
+          one = nested_jobs[i].values
+          for (var i = 0; i<one.length; i++) {
+              annual_means.push(one[i]['Annual Mean'])
+            }
+          }
+        }
+        return annual_means
+    }
+      means = annual_means(job_group)
+      console.log(means)
+      console.log(d3.max(means))
+      y_scale.domain(function(d) {return job_list(job_group)});
+      x_scale.domain([0, d3.max(means)]);
+
 
       var bars = svg.selectAll('.bar')
-        .data(job_titles)
+        .data(group_data)
 
       var new_bars = bars
         .enter()
@@ -92,26 +147,26 @@
         .attr('class', 'bar')
         .attr('fill', 'rgb(152, 171, 197)')
         .attr('width', '10px')
-        .on("mouseover", function(d) {
-              tooltip.transition()
-                .duration(200)
-                .style("opacity", .9);
-              tooltip.text("$"+d3.format(",")(d['Annual Mean']))
-                .attr("x",  x_scale(d['Annual Mean']) + 40 + "px")
-                .attr("y", y_scale(d["Job Title"]) + y_scale.bandwidth() - 3 + "px");
-            })
-            .on("mouseout", function(d) {
-              tooltip.transition()
-                .duration(500)
-                .style("opacity", 0);
-      });
+      //   .on("mouseover", function(d) {
+      //         tooltip.transition()
+      //           .duration(200)
+      //           .style("opacity", .9);
+      //         tooltip.text("$"+d3.format(",")(d['Annual Mean']))
+      //           .attr("x",  x_scale(d['Annual Mean']) + 40 + "px")
+      //           .attr("y", y_scale(d["Job Title"]) + y_scale.bandwidth() - 3 + "px");
+      //       })
+      //       .on("mouseout", function(d) {
+      //         tooltip.transition()
+      //           .duration(500)
+      //           .style("opacity", 0);
+      // });
 
 
       new_bars.merge(bars)
-        .attr('width', function(d) {return x_scale(d['Annual Mean'])})
+        .attr('width', console.log(x_scale(group_data['Annual Mean'])), function(d) {return x_scale(group_data['Annual Mean'])})
         .attr('height', function(d) {return y_scale.bandwidth()})
         .attr('x', 0)
-        .attr('y', function(d) {return y_scale(d["Job Title"])});
+        .attr('y', function(d) {return y_scale(group_data["Job Title"])});
 
       svg.select('.x.axis')
         .call(x_axis);
@@ -120,7 +175,7 @@
         .call(y_axis)
     }
 
-    barChart(job_titles);
+    bar_chart("Major Group", job_titles);
   });
 
 })();

@@ -1,0 +1,775 @@
+Job Title,Annual Mean,PRSE
+All Occupations,"62,870",0.6
+Management Occupations,"161,960",0.7
+Chief Executives,"248,670",2
+General and Operations Managers,"166,470",0.9
+Legislators,"63,050",4.9
+Advertising and Promotions Managers,"174,680",2.4
+Marketing Managers,"192,460",1.1
+Sales Managers,"195,060",1.2
+Public Relations and Fundraising Managers,"173,290",2.4
+Administrative Services Managers,"137,870",0.8
+Computer and Information Systems Managers,"194,350",1.6
+Financial Managers,"204,070",1.3
+Industrial Production Managers,"138,620",1.4
+Purchasing Managers,"158,210",1.5
+"Transportation, Storage, and Distribution Managers","121,480",1.2
+Compensation and Benefits Managers,"164,300",3.3
+Human Resources Managers,"154,250",2.9
+Training and Development Managers,"152,220",1.4
+"Farmers, Ranchers, and Other Agricultural Managers","77,940",9.3
+Construction Managers,"132,520",2.3
+"Education Administrators, Preschool and Childcare Center/Program","72,720",3.7
+"Education Administrators, Elementary and Secondary School","132,860",2.4
+"Education Administrators, Postsecondary","125,390",2.3
+"Education Administrators, All Other","103,330",3.1
+Architectural and Engineering Managers,"166,540",1.4
+Food Service Managers,"78,450",2
+Funeral Service Managers,"130,280",14.8
+Lodging Managers,"87,750",4.1
+Medical and Health Services Managers,"138,190",1.6
+Natural Sciences Managers,"180,990",2.7
+Postmasters and Mail Superintendents,"81,280",0.9
+"Property, Real Estate, and Community Association Managers","106,010",3.3
+Social and Community Service Managers,"91,690",1.1
+Emergency Management Directors,"111,320",3.1
+"Managers, All Other","140,450",1.3
+Business and Financial Operations Occupations,"97,410",0.9
+"Agents and Business Managers of Artists, Performers, and Athletes","102,040",7.6
+Buyers and Purchasing Agents,"77,640",1.2
+"Claims Adjusters, Examiners, and Investigators","73,270",1.5
+"Insurance Appraisers, Auto Damage","68,550",3.8
+Compliance Officers,"81,470",0.9
+Cost Estimators,"78,070",2
+Human Resources Specialists,"78,760",1.1
+Labor Relations Specialists,"87,160",5.2
+Logisticians,"84,250",1.2
+Management Analysts,"115,530",1.9
+"Meeting, Convention, and Event Planners","67,010",3.7
+Fundraisers,"67,490",2.3
+"Compensation, Benefits, and Job Analysis Specialists","80,820",1.3
+Training and Development Specialists,"73,580",1.8
+Market Research Analysts and Marketing Specialists,"81,630",1
+"Business Operations Specialists, All Other","81,370",0.8
+Accountants and Auditors,"99,140",1.3
+Appraisers and Assessors of Real Estate,"77,670",6.6
+Budget Analysts,"83,170",1.3
+Credit Analysts,"118,610",2.5
+Financial Analysts,"135,110",2.1
+Personal Financial Advisors,"163,710",2.7
+Insurance Underwriters,"101,320",3.4
+Financial Examiners,"118,190",3
+Credit Counselors,"59,150",1.7
+Loan Officers,"112,860",4.4
+"Tax Examiners and Collectors, and Revenue Agents","76,250",0.9
+Tax Preparers,"56,550",8.6
+"Financial Specialists, All Other","96,730",2.7
+Computer and Mathematical Occupations,"102,610",0.8
+Computer and Information Research Scientists,"135,030",2.8
+Computer Systems Analysts,"111,010",1.4
+Information Security Analysts,"125,570",1.5
+Computer Programmers,"94,970",2.1
+"Software Developers, Applications","116,260",1.1
+"Software Developers, Systems Software","120,380",1.1
+Web Developers,"84,910",1.7
+Database Administrators,"102,120",1.2
+Network and Computer Systems Administrators,"100,750",0.8
+Computer Network Architects,"121,400",3.1
+Computer User Support Specialists,"63,310",1.1
+Computer Network Support Specialists,"82,620",1.4
+"Computer Occupations, All Other","99,100",4
+Actuaries,"142,510",4.9
+Mathematicians,"101,340",4.2
+Operations Research Analysts,"107,770",2.5
+Statisticians,"108,930",2.7
+Miscellaneous Mathematical Science Occupations,"107,730",9.8
+Architecture and Engineering Occupations,"91,520",1
+"Architects, Except Landscape and Naval","100,860",4
+Landscape Architects,"78,720",5.4
+Cartographers and Photogrammetrists,"71,390",10.4
+Surveyors,"74,180",3.8
+Aerospace Engineers,"106,370",4.3
+Biomedical Engineers,"107,220",3.9
+Chemical Engineers,"101,250",2.4
+Civil Engineers,"100,850",1.4
+Computer Hardware Engineers,"113,880",2.6
+Electrical Engineers,"105,700",1.4
+"Electronics Engineers, Except Computer","105,030",1.6
+Environmental Engineers,"96,390",2.4
+"Health and Safety Engineers, Except Mining Safety Engineers and Inspectors","99,500",2.9
+Industrial Engineers,"100,100",4.7
+Materials Engineers,"98,250",2.5
+Mechanical Engineers,"95,360",1.3
+"Mining and Geological Engineers, Including Mining Safety Engineers","90,350",3
+Nuclear Engineers,"120,990",2.5
+Petroleum Engineers,"193,950",6.4
+"Engineers, All Other","105,450",1.9
+Architectural and Civil Drafters,"57,820",1.8
+Electrical and Electronics Drafters,"69,420",7.5
+Mechanical Drafters,"66,000",3.6
+"Drafters, All Other","64,730",3.8
+Aerospace Engineering and Operations Technicians,"61,970",2.2
+Civil Engineering Technicians,*,*
+Electrical and Electronics Engineering Technicians,"70,020",1.4
+Electro-Mechanical Technicians,"64,710",6.5
+Environmental Engineering Technicians,"60,670",5
+Industrial Engineering Technicians,"59,860",2.9
+Mechanical Engineering Technicians,"61,750",4.8
+"Engineering Technicians, Except Drafters, All Other","69,030",2.9
+Surveying and Mapping Technicians,"54,670",3
+"Life, Physical, and Social Science Occupations","87,460",2.8
+Food Scientists and Technologists,"79,340",4.7
+Soil and Plant Scientists,"70,380",6.4
+Biochemists and Biophysicists,"139,550",7.9
+Microbiologists,"76,880",2.7
+Zoologists and Wildlife Biologists,"76,230",2.1
+"Biological Scientists, All Other","87,390",1.9
+Conservation Scientists,*,*
+Foresters,"67,340",4.6
+Epidemiologists,"92,650",5.4
+"Medical Scientists, Except Epidemiologists","101,320",4.3
+"Life Scientists, All Other","87,460",7.3
+Physicists,"141,810",6.3
+Atmospheric and Space Scientists,"101,710",4.8
+Chemists,"88,700",2
+Materials Scientists,"104,120",3.8
+"Environmental Scientists and Specialists, Including Health","86,580",2.8
+"Geoscientists, Except Hydrologists and Geographers","81,040",4.1
+Hydrologists,"85,200",3.6
+"Physical Scientists, All Other","97,770",2.7
+Economists,"138,200",3.9
+Survey Researchers,"61,640",3.2
+"Clinical, Counseling, and School Psychologists","96,790",2.8
+"Psychologists, All Other","99,750",2
+Sociologists,"72,620",7.8
+Urban and Regional Planners,"82,020",3.8
+Anthropologists and Archeologists,"69,850",10
+Historians,"65,200",3.9
+Political Scientists,"121,800",3.2
+"Social Scientists and Related Workers, All Other","84,910",2.5
+Agricultural and Food Science Technicians,"55,720",6.8
+Biological Technicians,"50,900",1.8
+Chemical Technicians,"61,580",7.4
+Geological and Petroleum Technicians,"69,550",13.8
+Nuclear Technicians,"110,790",3
+Social Science Research Assistants,"57,650",2.1
+"Environmental Science and Protection Technicians, Including Health","56,090",2.8
+Forensic Science Technicians,"68,110",1.8
+Forest and Conservation Technicians,"35,590",6.1
+"Life, Physical, and Social Science Technicians, All Other","57,320",2.4
+Community and Social Service Occupations,"54,830",1.4
+"Educational, Guidance, School, and Vocational Counselors","72,200",3.3
+Marriage and Family Therapists,"68,910",2.4
+Rehabilitation Counselors,"41,010",2.9
+"Substance Abuse, Behavioral Disorder, and Mental Health Counselors","52,960",1.7
+"Counselors, All Other","59,300",3.3
+"Child, Family, and School Social Workers","60,330",3
+Healthcare Social Workers,"64,530",1.2
+Mental Health and Substance Abuse Social Workers,"64,630",3.1
+"Social Workers, All Other","68,990",1.6
+Health Educators,"58,380",3.9
+Probation Officers and Correctional Treatment Specialists,"74,550",1.2
+Social and Human Service Assistants,"36,600",1.1
+Community Health Workers,"47,180",3.2
+"Community and Social Service Specialists, All Other","54,970",2.3
+Clergy,"56,630",4.6
+"Directors, Religious Activities and Education","45,950",5.9
+"Religious Workers, All Other","33,500",9.9
+Legal Occupations,"137,610",2.3
+Lawyers,"170,530",2.3
+Judicial Law Clerks,"67,640",1.9
+"Administrative Law Judges, Adjudicators, and Hearing Officers","98,960",1.6
+"Arbitrators, Mediators, and Conciliators","86,980",6.2
+"Judges, Magistrate Judges, and Magistrates","157,770",1.4
+Paralegals and Legal Assistants,"61,110",1.7
+Court Reporters,"83,220",5.1
+"Title Examiners, Abstractors, and Searchers","54,370",4.3
+"Legal Support Workers, All Other","64,530",4.8
+"Education, Training, and Library Occupations","68,140",1.6
+"Business Teachers, Postsecondary","110,210",4.7
+"Computer Science Teachers, Postsecondary","105,490",2.6
+"Mathematical Science Teachers, Postsecondary","105,300",3.6
+"Architecture Teachers, Postsecondary","123,760",10.9
+"Engineering Teachers, Postsecondary","125,470",3.9
+"Agricultural Sciences Teachers, Postsecondary","84,780",3.8
+"Biological Science Teachers, Postsecondary","100,650",3.6
+"Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary","107,520",3
+"Chemistry Teachers, Postsecondary","105,650",2.5
+"Environmental Science Teachers, Postsecondary","106,470",4.3
+"Physics Teachers, Postsecondary","115,170",2.8
+"Anthropology and Archeology Teachers, Postsecondary","119,000",4.1
+"Area, Ethnic, and Cultural Studies Teachers, Postsecondary","103,110",7.4
+"Economics Teachers, Postsecondary","126,390",5.4
+"Geography Teachers, Postsecondary","95,700",10.6
+"Political Science Teachers, Postsecondary","117,170",9.1
+"Psychology Teachers, Postsecondary","101,870",4.2
+"Sociology Teachers, Postsecondary","94,070",4.2
+"Social Sciences Teachers, Postsecondary, All Other","105,690",3.2
+"Health Specialties Teachers, Postsecondary","119,350",3.1
+"Nursing Instructors and Teachers, Postsecondary","102,030",2
+"Education Teachers, Postsecondary","90,630",4.9
+"Library Science Teachers, Postsecondary","81,660",1.8
+"Criminal Justice and Law Enforcement Teachers, Postsecondary","68,900",7.6
+"Law Teachers, Postsecondary","136,640",7.4
+"Social Work Teachers, Postsecondary","91,960",6.3
+"Art, Drama, and Music Teachers, Postsecondary","96,430",4.8
+"Communications Teachers, Postsecondary","93,740",4.9
+"English Language and Literature Teachers, Postsecondary","93,840",2.9
+"Foreign Language and Literature Teachers, Postsecondary","91,280",3.4
+"History Teachers, Postsecondary","94,050",3.1
+"Philosophy and Religion Teachers, Postsecondary","83,520",2.9
+Graduate Teaching Assistants,"40,680",5.2
+"Recreation and Fitness Studies Teachers, Postsecondary","89,400",4.5
+"Vocational Education Teachers, Postsecondary","65,210",3.1
+"Preschool Teachers, Except Special Education","45,930",9.6
+"Kindergarten Teachers, Except Special Education","77,520",2
+"Elementary School Teachers, Except Special Education","81,760",1.9
+"Middle School Teachers, Except Special and Career/Technical Education","81,360",1.3
+"Career/Technical Education Teachers, Middle School","85,110",4.9
+"Secondary School Teachers, Except Special and Career/Technical Education","87,260",1.8
+"Career/Technical Education Teachers, Secondary School","77,120",4.9
+"Special Education Teachers, Preschool","78,860",8.2
+"Special Education Teachers, Kindergarten and Elementary School","76,820",1.7
+"Special Education Teachers, Middle School","79,370",1.5
+"Special Education Teachers, Secondary School","88,450",3.2
+"Special Education Teachers, All Other","83,790",7.5
+Adult Basic and Secondary Education and Literacy Teachers and Instructors,"73,430",4.3
+Self-Enrichment Education Teachers,"59,770",2.9
+"Teachers and Instructors, All Other, Except Substitute Teachers","52,330",4.7
+Substitute Teachers,"38,030",8.7
+Archivists,"55,520",3
+Curators,"79,790",3.5
+Museum Technicians and Conservators,"61,560",4
+Librarians,"70,550",0.9
+Library Technicians,"35,840",1.9
+Audio-Visual and Multimedia Collections Specialists,"66,600",3.8
+Farm and Home Management Advisors,"58,190",11.9
+Instructional Coordinators,"73,490",3
+Teacher Assistants,"30,350",1.4
+"Education, Training, and Library Workers, All Other","53,020",5.9
+"Arts, Design, Entertainment, Sports, and Media Occupations","79,220",1.2
+Art Directors,"126,760",1.3
+Craft Artists,"58,810",7.1
+"Fine Artists, Including Painters, Sculptors, and Illustrators","70,320",6.4
+Multimedia Artists and Animators,"80,550",4.7
+"Artists and Related Workers, All Other","75,370",8.8
+Commercial and Industrial Designers,"78,440",6.4
+Fashion Designers,"88,580",2.6
+Floral Designers,"33,990",6.1
+Graphic Designers,"65,970",1.6
+Interior Designers,"65,180",3.7
+Merchandise Displayers and Window Trimmers,"34,840",2.6
+Set and Exhibit Designers,"77,690",3.5
+"Designers, All Other","73,110",5.6
+Actors,*,*
+Producers and Directors,"119,280",2.5
+Athletes and Sports Competitors,"95,340",14.6
+Coaches and Scouts,"56,870",4.3
+"Umpires, Referees, and Other Sports Officials",*,*
+Dancers,*,14.1
+Choreographers,"88,570",11.6
+Music Directors and Composers,"91,760",10.3
+Musicians and Singers,*,7.5
+"Entertainers and Performers, Sports and Related Workers, All Other",*,8.5
+Radio and Television Announcers,"87,450",12.8
+Public Address System and Other Announcers,"50,690",12.3
+Broadcast News Analysts,"85,890",10.8
+Reporters and Correspondents,"75,920",5.4
+Public Relations Specialists,"74,640",1.8
+Editors,"83,380",1.5
+Technical Writers,"82,610",3.7
+Writers and Authors,"88,230",2.5
+Interpreters and Translators,"73,710",3.7
+"Media and Communication Workers, All Other","57,150",6
+Audio and Video Equipment Technicians,"55,730",2
+Broadcast Technicians,"59,560",4
+Radio Operators,"68,210",2.8
+Sound Engineering Technicians,"77,850",3.9
+Photographers,"50,620",6.3
+"Camera Operators, Television, Video, and Motion Picture","83,800",4.1
+Film and Video Editors,"85,080",3.1
+"Media and Communication Equipment Workers, All Other","61,580",6.9
+Healthcare Practitioners and Technical Occupations,"96,640",0.9
+"Dentists, General","164,610",5
+Oral and Maxillofacial Surgeons,"270,190",9.7
+Orthodontists,"239,770",11.8
+"Dentists, All Other Specialists","195,720",15.1
+Dietitians and Nutritionists,"68,520",0.9
+Optometrists,"116,260",2.9
+Pharmacists,"118,120",1.6
+Anesthesiologists,"263,530",8.7
+Family and General Practitioners,"201,160",3.6
+"Internists, General","196,770",7.2
+Obstetricians and Gynecologists,"222,050",3.5
+"Pediatricians, General","176,860",3
+Psychiatrists,"208,970",4.6
+Surgeons,"260,290",4
+"Physicians and Surgeons, All Other","179,130",3.2
+Physician Assistants,"115,800",0.8
+Podiatrists,"158,280",5.9
+Occupational Therapists,"95,210",1.8
+Physical Therapists,"92,440",1.2
+Radiation Therapists,"106,220",1.6
+Recreational Therapists,"56,000",1.3
+Respiratory Therapists,"77,720",0.6
+Speech-Language Pathologists,"93,130",2.5
+Exercise Physiologists,"65,630",9.4
+"Therapists, All Other","74,490",7.6
+Veterinarians,"127,200",4.1
+Registered Nurses,"89,400",0.8
+Nurse Anesthetists,"185,240",3.7
+Nurse Midwives,"108,390",2
+Nurse Practitioners,"122,850",2.5
+Audiologists,"89,140",2.6
+"Health Diagnosing and Treating Practitioners, All Other","83,060",4
+Clinical Laboratory Technologists and Technicians,"65,410",1.1
+Dental Hygienists,"86,820",1.3
+Cardiovascular Technologists and Technicians,"65,140",1.3
+Diagnostic Medical Sonographers,"75,800",1.2
+Nuclear Medicine Technologists,"90,690",1.6
+Radiologic Technologists,"71,410",1.1
+Magnetic Resonance Imaging Technologists,"82,870",1.1
+Emergency Medical Technicians and Paramedics,"43,430",2.4
+Dietetic Technicians,"42,060",1.2
+Pharmacy Technicians,"34,450",2
+Psychiatric Technicians,"45,150",1.7
+Respiratory Therapy Technicians,"63,290",2.3
+Surgical Technologists,"56,190",1
+Veterinary Technologists and Technicians,"42,440",2.9
+Ophthalmic Medical Technicians,"40,990",2.7
+Licensed Practical and Licensed Vocational Nurses,"54,180",0.6
+Medical Records and Health Information Technicians,"51,180",1.5
+"Opticians, Dispensing","57,060",3.5
+Orthotists and Prosthetists,"82,800",10
+Hearing Aid Specialists,"65,620",4.1
+"Health Technologists and Technicians, All Other","52,990",2.3
+Occupational Health and Safety Specialists,"80,730",3.2
+Occupational Health and Safety Technicians,"63,030",2.7
+Athletic Trainers,"54,990",3.1
+Genetic Counselors,"82,910",1.3
+"Healthcare Practitioners and Technical Workers, All Other","82,210",3
+Healthcare Support Occupations,"30,970",1.1
+Home Health Aides,"24,280",0.9
+Psychiatric Aides,"40,090",1.8
+Nursing Assistants,"35,190",0.6
+Orderlies,"33,120",1
+Occupational Therapy Assistants,"66,210",1.8
+Occupational Therapy Aides,"35,470",6
+Physical Therapist Assistants,"62,190",1.5
+Physical Therapist Aides,"27,630",1.7
+Massage Therapists,"56,270",4.5
+Dental Assistants,"39,160",3.1
+Medical Assistants,"36,630",0.9
+Medical Equipment Preparers,"41,770",1.8
+Medical Transcriptionists,"43,810",2.8
+Pharmacy Aides,"30,450",4.1
+Veterinary Assistants and Laboratory Animal Caretakers,"31,280",2.9
+Phlebotomists,"40,950",1.2
+"Healthcare Support Workers, All Other","37,470",1.7
+Protective Service Occupations,"53,210",3.2
+First-Line Supervisors of Correctional Officers,"96,390",1.9
+First-Line Supervisors of Police and Detectives,"119,580",2
+First-Line Supervisors of Fire Fighting and Prevention Workers,"110,780",1.6
+"First-Line Supervisors of Protective Service Workers, All Other","64,650",3.8
+Firefighters,"75,700",2.4
+Fire Inspectors and Investigators,"55,700",2.4
+Forest Fire Inspectors and Prevention Specialists,*,*
+Bailiffs,"65,360",2.7
+Correctional Officers and Jailers,"69,180",1.8
+Detectives and Criminal Investigators,"95,160",3.7
+Fish and Game Wardens,"62,620",1.5
+Parking Enforcement Workers,"40,900",2.5
+Police and Sheriff's Patrol Officers,"78,360",2.8
+Transit and Railroad Police,"80,710",3.7
+Animal Control Workers,"44,630",4.7
+Private Detectives and Investigators,"63,120",3
+Gaming Surveillance Officers and Gaming Investigators,"38,510",10.9
+Security Guards,"33,820",2.3
+Crossing Guards,"33,910",1.7
+"Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers","26,240",2
+"Protective Service Workers, All Other","30,960",2.7
+Food Preparation and Serving Related Occupations,"29,000",0.8
+Chefs and Head Cooks,"51,090",6.6
+First-Line Supervisors of Food Preparation and Serving Workers,"43,060",1.4
+"Cooks, Fast Food","23,230",2.3
+"Cooks, Institution and Cafeteria","34,930",1
+"Cooks, Restaurant","29,960",1.5
+"Cooks, Short Order","24,480",2.9
+"Cooks, All Other","33,230",5.5
+Food Preparation Workers,"25,900",2.4
+Bartenders,"33,290",2.3
+"Combined Food Preparation and Serving Workers, Including Fast Food","23,400",0.7
+"Counter Attendants, Cafeteria, Food Concession, and Coffee Shop","23,090",1.5
+Waiters and Waitresses,"31,190",2
+"Food Servers, Nonrestaurant","30,410",1.3
+Dining Room and Cafeteria Attendants and Bartender Helpers,"27,060",2.6
+Dishwashers,"25,000",1.4
+"Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop","26,260",1.6
+"Food Preparation and Serving Related Workers, All Other","27,730",2.8
+Building and Grounds Cleaning and Maintenance Occupations,"35,540",0.9
+First-Line Supervisors of Housekeeping and Janitorial Workers,"54,230",1.6
+"First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers","58,350",2.4
+"Janitors and Cleaners, Except Maids and Housekeeping Cleaners","34,420",1.1
+Maids and Housekeeping Cleaners,"34,410",2
+"Building Cleaning Workers, All Other","39,890",9.6
+Pest Control Workers,"39,710",3.9
+Landscaping and Groundskeeping Workers,"33,720",1.3
+"Pesticide Handlers, Sprayers, and Applicators, Vegetation","33,870",5.1
+Tree Trimmers and Pruners,"54,930",2.9
+"Grounds Maintenance Workers, All Other","26,930",5.1
+Personal Care and Service Occupations,"32,050",1.1
+First-Line Supervisors of Gaming Workers,"52,970",6.9
+First-Line Supervisors of Personal Service Workers,"46,620",1.7
+Animal Trainers,"38,130",6.4
+Nonfarm Animal Caretakers,"28,610",2
+Gaming and Sports Book Writers and Runners,"34,310",16
+Motion Picture Projectionists,"34,530",13.1
+"Ushers, Lobby Attendants, and Ticket Takers","25,690",2
+Amusement and Recreation Attendants,"24,550",1.5
+Costume Attendants,"63,630",9.4
+"Locker Room, Coatroom, and Dressing Room Attendants","27,290",2.3
+"Entertainment Attendants and Related Workers, All Other","31,510",7.2
+Funeral Attendants,"32,430",5.2
+"Morticians, Undertakers, and Funeral Directors","64,650",6.2
+Barbers,"27,900",6.9
+"Hairdressers, Hairstylists, and Cosmetologists","35,790",4.5
+"Makeup Artists, Theatrical and Performance","75,930",5.2
+Manicurists and Pedicurists,"23,420",2.4
+Shampooers,"22,160",2.7
+Skincare Specialists,"38,050",5.7
+Baggage Porters and Bellhops,"31,160",3.2
+Concierges,"42,400",3
+Tour and Travel Guides,"36,480",5.8
+Childcare Workers,"28,250",3.2
+Personal Care Aides,"25,890",0.8
+Fitness Trainers and Aerobics Instructors,"63,520",2.6
+Recreation Workers,"32,600",1.4
+Residential Advisors,"35,930",2.5
+"Personal Care and Service Workers, All Other","28,610",4.4
+Sales and Related Occupations,"53,740",1.7
+First-Line Supervisors of Retail Sales Workers,"51,480",1.3
+First-Line Supervisors of Non-Retail Sales Workers,"108,790",2.1
+Cashiers,"23,740",1.8
+Gaming Change Persons and Booth Cashiers,"37,950",8.9
+Counter and Rental Clerks,"30,910",2.6
+Parts Salespersons,"37,640",2.4
+Retail Salespersons,"27,980",1.1
+Advertising Sales Agents,"86,190",2.2
+Insurance Sales Agents,"86,840",3.4
+"Securities, Commodities, and Financial Services Sales Agents","159,720",2.9
+Travel Agents,"41,700",4.8
+"Sales Representatives, Services, All Other","79,760",1.4
+"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products","103,870",3.5
+"Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products","75,280",1.4
+Demonstrators and Product Promoters,"34,690",5.9
+Models,"32,090",10.3
+Real Estate Brokers,"99,300",10.9
+Real Estate Sales Agents,"93,570",5.2
+Sales Engineers,"111,330",2.6
+Telemarketers,"28,470",3.1
+"Door-to-Door Sales Workers, News and Street Vendors, and Related Workers","30,520",11.9
+"Sales and Related Workers, All Other","49,460",2.7
+Office and Administrative Support Occupations,"43,870",0.4
+First-Line Supervisors of Office and Administrative Support Workers,"70,290",0.7
+"Switchboard Operators, Including Answering Service","38,080",2
+Telephone Operators,"47,730",4.7
+"Communications Equipment Operators, All Other","52,850",2.6
+Bill and Account Collectors,"47,240",1.8
+Billing and Posting Clerks,"44,110",0.9
+"Bookkeeping, Accounting, and Auditing Clerks","46,900",0.6
+Gaming Cage Workers,"32,760",11.8
+Payroll and Timekeeping Clerks,"48,900",1.2
+Procurement Clerks,"45,690",1.4
+Tellers,"31,140",0.9
+"Financial Clerks, All Other","48,870",3.4
+Brokerage Clerks,"62,700",1.5
+Correspondence Clerks,"44,870",2.1
+"Court, Municipal, and License Clerks","59,960",1
+"Credit Authorizers, Checkers, and Clerks","46,060",1.4
+Customer Service Representatives,"41,750",0.7
+"Eligibility Interviewers, Government Programs",*,*
+File Clerks,"33,060",1.2
+"Hotel, Motel, and Resort Desk Clerks","34,180",3.2
+"Interviewers, Except Eligibility and Loan","39,550",1.4
+"Library Assistants, Clerical","32,300",2.1
+Loan Interviewers and Clerks,"43,910",1.8
+New Accounts Clerks,"46,030",6.1
+Order Clerks,"34,910",2.6
+"Human Resources Assistants, Except Payroll and Timekeeping","45,080",1.3
+Receptionists and Information Clerks,"33,760",0.7
+Reservation and Transportation Ticket Agents and Travel Clerks,"40,630",3.4
+"Information and Record Clerks, All Other","46,020",2
+Cargo and Freight Agents,"46,810",2.6
+Couriers and Messengers,"33,740",4.5
+"Police, Fire, and Ambulance Dispatchers","47,480",1.5
+"Dispatchers, Except Police, Fire, and Ambulance","48,880",5.5
+"Meter Readers, Utilities",*,*
+Postal Service Clerks,"52,220",0.9
+Postal Service Mail Carriers,"50,700",0.9
+"Postal Service Mail Sorters, Processors, and Processing Machine Operators","50,560",1.5
+"Production, Planning, and Expediting Clerks","52,440",0.8
+"Shipping, Receiving, and Traffic Clerks","36,090",1.1
+Stock Clerks and Order Fillers,"28,020",0.7
+"Weighers, Measurers, Checkers, and Samplers, Recordkeeping","35,740",2.3
+Executive Secretaries and Executive Administrative Assistants,"71,840",0.7
+Legal Secretaries,"57,170",2.4
+Medical Secretaries,"43,050",1.6
+"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive","41,480",0.7
+Computer Operators,"45,130",2.8
+Data Entry Keyers,"37,960",1.2
+Word Processors and Typists,"45,730",1.8
+Desktop Publishers,"56,010",4.5
+Insurance Claims and Policy Processing Clerks,"49,290",1.5
+"Mail Clerks and Mail Machine Operators, Except Postal Service","34,540",2.2
+"Office Clerks, General","34,690",0.6
+"Office Machine Operators, Except Computer","34,780",2.2
+Proofreaders and Copy Markers,"44,830",3.1
+Statistical Assistants,"55,410",3
+"Office and Administrative Support Workers, All Other","38,780",3.7
+"Farming, Fishing, and Forestry Occupations","35,600",2
+"First-Line Supervisors of Farming, Fishing, and Forestry Workers","54,730",3.8
+Agricultural Inspectors,"60,670",1.8
+"Farmworkers and Laborers, Crop, Nursery, and Greenhouse","32,540",3.8
+"Farmworkers, Farm, Ranch, and Aquacultural Animals","29,350",5.8
+"Agricultural Workers, All Other","24,910",20.5
+Forest and Conservation Workers,"35,710",3.9
+Construction and Extraction Occupations,"67,880",0.9
+First-Line Supervisors of Construction Trades and Extraction Workers,"89,670",1.1
+Boilermakers,"64,780",8.7
+Brickmasons and Blockmasons,"76,130",3.9
+Stonemasons,"49,200",12.3
+Carpenters,"67,690",1.5
+Carpet Installers,"46,050",13.1
+"Floor Layers, Except Carpet, Wood, and Hard Tiles","56,310",11.3
+Floor Sanders and Finishers,"34,110",23.1
+Tile and Marble Setters,"76,830",7.4
+Cement Masons and Concrete Finishers,"74,960",2.4
+Construction Laborers,"52,910",1.5
+"Paving, Surfacing, and Tamping Equipment Operators","66,060",12.7
+Pile-Driver Operators,*,*
+Operating Engineers and Other Construction Equipment Operators,"85,000",1.9
+Drywall and Ceiling Tile Installers,"61,350",7.6
+Tapers,"63,840",5.7
+Electricians,"79,600",2.8
+Glaziers,"62,050",4.5
+"Insulation Workers, Floor, Ceiling, and Wall","44,600",8.9
+"Insulation Workers, Mechanical","103,170",4.7
+"Painters, Construction and Maintenance","52,490",4.5
+Paperhangers,"54,040",16
+Pipelayers,"60,120",6.9
+"Plumbers, Pipefitters, and Steamfitters","80,240",2.5
+Plasterers and Stucco Masons,"68,950",10.5
+Reinforcing Iron and Rebar Workers,"91,110",4.2
+Roofers,"68,410",6.6
+Sheet Metal Workers,"70,080",7.1
+Structural Iron and Steel Workers,"89,910",3.2
+Solar Photovoltaic Installers,"43,730",2.9
+"Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters","43,870",7.7
+Helpers--Carpenters,"30,710",5.5
+Helpers--Electricians,"37,240",3.9
+"Helpers--Painters, Paperhangers, Plasterers, and Stucco Masons","33,090",12.5
+"Helpers--Pipelayers, Plumbers, Pipefitters, and Steamfitters","40,180",3.7
+Helpers--Roofers,"25,440",12.4
+"Helpers, Construction Trades, All Other","33,250",4.5
+Construction and Building Inspectors,"69,980",1.8
+Elevator Installers and Repairers,"81,070",3.8
+Fence Erectors,"36,280",13.2
+Hazardous Materials Removal Workers,"65,260",2.9
+Highway Maintenance Workers,"49,290",1.4
+Rail-Track Laying and Maintenance Equipment Operators,"70,230",4
+Septic Tank Servicers and Sewer Pipe Cleaners,"47,910",4.2
+Miscellaneous Construction and Related Workers,"51,510",13.9
+"Earth Drillers, Except Oil and Gas","69,970",6.1
+"Explosives Workers, Ordnance Handling Experts, and Blasters","68,700",9.4
+"Rock Splitters, Quarry","32,360",11.5
+Helpers--Extraction Workers,"35,030",15.5
+"Installation, Maintenance, and Repair Occupations","54,630",0.8
+"First-Line Supervisors of Mechanics, Installers, and Repairers","81,450",0.8
+"Computer, Automated Teller, and Office Machine Repairers","45,510",2.5
+"Radio, Cellular, and Tower Equipment Installers and Repairers","69,800",4.3
+"Telecommunications Equipment Installers and Repairers, Except Line Installers","67,480",2.1
+Avionics Technicians,"66,800",3.1
+"Electric Motor, Power Tool, and Related Repairers","50,330",6.4
+"Electrical and Electronics Installers and Repairers, Transportation Equipment","66,450",5.5
+"Electrical and Electronics Repairers, Commercial and Industrial Equipment","64,750",2.3
+"Electrical and Electronics Repairers, Powerhouse, Substation, and Relay","79,540",3.2
+"Electronic Equipment Installers and Repairers, Motor Vehicles","42,590",6.4
+Electronic Home Entertainment Equipment Installers and Repairers,"38,470",6.2
+Security and Fire Alarm Systems Installers,"51,470",4.8
+Aircraft Mechanics and Service Technicians,"67,510",2
+Automotive Body and Related Repairers,"48,170",2.6
+Automotive Glass Installers and Repairers,"34,660",13.1
+Automotive Service Technicians and Mechanics,"46,760",2
+Bus and Truck Mechanics and Diesel Engine Specialists,"58,470",2.2
+Farm Equipment Mechanics and Service Technicians,"51,990",7.1
+"Mobile Heavy Equipment Mechanics, Except Engines","62,460",2.6
+Rail Car Repairers,"80,210",4.7
+Motorboat Mechanics and Service Technicians,"45,570",6.5
+Motorcycle Mechanics,"41,390",2.7
+Outdoor Power Equipment and Other Small Engine Mechanics,"43,240",3.1
+Bicycle Repairers,"34,920",9.2
+Recreational Vehicle Service Technicians,"39,700",7.9
+Tire Repairers and Changers,"27,950",2.9
+Mechanical Door Repairers,"46,770",3.4
+"Control and Valve Installers and Repairers, Except Mechanical Door","74,580",2.9
+"Heating, Air Conditioning, and Refrigeration Mechanics and Installers","61,160",1.9
+Home Appliance Repairers,"43,530",6
+Industrial Machinery Mechanics,"60,000",1.3
+"Maintenance Workers, Machinery","53,090",3.6
+Millwrights,"72,400",4.7
+Electrical Power-Line Installers and Repairers,"81,490",2
+Telecommunications Line Installers and Repairers,"78,040",2.5
+Camera and Photographic Equipment Repairers,"46,710",6.4
+Medical Equipment Repairers,"62,390",4.5
+Musical Instrument Repairers and Tuners,"43,830",5.9
+Watch Repairers,"44,300",5.7
+"Precision Instrument and Equipment Repairers, All Other","54,340",5.6
+"Maintenance and Repair Workers, General","46,840",1.1
+"Coin, Vending, and Amusement Machine Servicers and Repairers","44,930",4.1
+Commercial Divers,"114,860",5.2
+Locksmiths and Safe Repairers,"48,060",4.8
+Riggers,"70,180",6.1
+Signal and Track Switch Repairers,"71,210",6.1
+"Helpers--Installation, Maintenance, and Repair Workers","34,990",3.6
+"Installation, Maintenance, and Repair Workers, All Other","38,960",2.9
+Production Occupations,"39,880",0.6
+First-Line Supervisors of Production and Operating Workers,"71,530",0.9
+"Aircraft Structure, Surfaces, Rigging, and Systems Assemblers","43,320",6.6
+"Coil Winders, Tapers, and Finishers","36,680",3.5
+"Electrical, Electronic, and Electromechanical Assemblers, Except Coil Winders, Tapers, and Finishers","35,890",1.5
+Engine and Other Machine Assemblers,"42,100",5.4
+Structural Metal Fabricators and Fitters,"49,630",6.5
+Fiberglass Laminators and Fabricators,"47,090",8.9
+"Assemblers and Fabricators, All Other, Including Team Assemblers","31,180",1.6
+Bakers,"31,070",2.2
+Butchers and Meat Cutters,"38,760",3.1
+"Meat, Poultry, and Fish Cutters and Trimmers","30,610",8.4
+Slaughterers and Meat Packers,"27,320",7.1
+"Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders","33,210",5.1
+Food Batchmakers,"27,860",2.3
+Food Cooking Machine Operators and Tenders,"27,580",2.9
+"Food Processing Workers, All Other","27,570",4.5
+"Computer-Controlled Machine Tool Operators, Metal and Plastic","43,080",1.6
+"Computer Numerically Controlled Machine Tool Programmers, Metal and Plastic","63,470",2.5
+"Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic","36,480",2
+"Forging Machine Setters, Operators, and Tenders, Metal and Plastic","39,750",4.5
+"Rolling Machine Setters, Operators, and Tenders, Metal and Plastic","39,150",4.3
+"Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic","34,980",2.1
+"Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic","33,320",5
+"Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic","35,270",2
+"Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic","41,270",2.8
+"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic","47,820",3.5
+Machinists,"48,060",2.6
+Metal-Refining Furnace Operators and Tenders,"45,890",5.2
+"Pourers and Casters, Metal","42,320",5.7
+"Model Makers, Metal and Plastic","60,660",10.1
+Foundry Mold and Coremakers,"35,130",10
+"Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic","35,240",3.8
+"Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic","34,340",2.4
+Tool and Die Makers,"57,570",2
+"Welders, Cutters, Solderers, and Brazers","50,540",2.3
+"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders","42,330",4.8
+"Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic","36,190",5.2
+"Layout Workers, Metal and Plastic","47,470",8.9
+"Plating and Coating Machine Setters, Operators, and Tenders, Metal and Plastic","35,310",4.1
+"Tool Grinders, Filers, and Sharpeners","32,320",10.6
+"Metal Workers and Plastic Workers, All Other","36,970",6.3
+Prepress Technicians and Workers,"51,300",2.8
+Printing Press Operators,"44,810",2.3
+Print Binding and Finishing Workers,"36,680",4.3
+Laundry and Dry-Cleaning Workers,"25,210",1.6
+"Pressers, Textile, Garment, and Related Materials","24,110",2.4
+Sewing Machine Operators,"26,980",3
+Shoe and Leather Workers and Repairers,"26,280",6
+"Sewers, Hand","25,870",4.7
+"Tailors, Dressmakers, and Custom Sewers",*,*
+Textile Bleaching and Dyeing Machine Operators and Tenders,"30,660",4.5
+"Textile Cutting Machine Setters, Operators, and Tenders","34,230",2.8
+"Textile Knitting and Weaving Machine Setters, Operators, and Tenders","27,810",10.5
+"Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tenders","31,990",4
+Fabric and Apparel Patternmakers,"58,530",8.5
+Upholsterers,"43,230",5.6
+"Textile, Apparel, and Furnishings Workers, All Other","37,040",7.1
+Cabinetmakers and Bench Carpenters,"43,990",2.3
+Furniture Finishers,"39,470",3.3
+"Sawing Machine Setters, Operators, and Tenders, Wood","40,100",8.7
+"Woodworking Machine Setters, Operators, and Tenders, Except Sawing","40,050",4.8
+"Woodworkers, All Other","41,310",12.4
+Power Distributors and Dispatchers,"95,140",2.3
+Power Plant Operators,"82,850",2.1
+Stationary Engineers and Boiler Operators,"79,780",2.2
+Water and Wastewater Treatment Plant and System Operators,"62,210",1.7
+Chemical Plant and System Operators,"63,620",8.6
+Gas Plant Operators,"76,730",3.6
+"Petroleum Pump System Operators, Refinery Operators, and Gaugers","73,950",10.2
+"Plant and System Operators, All Other","65,880",3.7
+Chemical Equipment Operators and Tenders,"44,410",2.4
+"Separating, Filtering, Clarifying, Precipitating, and Still Machine Setters, Operators, and Tenders","46,670",5.5
+"Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders","35,760",4.9
+"Grinding and Polishing Workers, Hand","40,190",5.6
+"Mixing and Blending Machine Setters, Operators, and Tenders","42,370",2.9
+"Cutters and Trimmers, Hand","34,520",12.4
+"Cutting and Slicing Machine Setters, Operators, and Tenders","33,350",2.6
+"Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders","32,800",2.9
+"Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders","40,720",2.8
+"Inspectors, Testers, Sorters, Samplers, and Weighers","42,660",1.6
+Jewelers and Precious Stone and Metal Workers,"49,860",5.8
+Dental Laboratory Technicians,"46,980",6.1
+Medical Appliance Technicians,"45,210",7.3
+Ophthalmic Laboratory Technicians,"38,700",3.3
+Packaging and Filling Machine Operators and Tenders,"29,460",1.6
+"Coating, Painting, and Spraying Machine Setters, Operators, and Tenders","37,900",4.4
+"Painters, Transportation Equipment","48,920",3
+"Painting, Coating, and Decorating Workers","31,800",3.4
+Photographic Process Workers and Processing Machine Operators,"41,770",6.4
+Adhesive Bonding Machine Operators and Tenders,"35,010",5.5
+"Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders","33,060",3.5
+Cooling and Freezing Equipment Operators and Tenders,"35,300",8.2
+Etchers and Engravers,"35,670",10.6
+"Molders, Shapers, and Casters, Except Metal and Plastic","40,980",2.5
+"Paper Goods Machine Setters, Operators, and Tenders","31,500",2.4
+Tire Builders,"27,020",3.7
+Helpers--Production Workers,"28,600",1.7
+"Production Workers, All Other","33,170",3.7
+Transportation and Material Moving Occupations,"41,060",2.5
+Aircraft Cargo Handling Supervisors,"49,880",4.7
+"First-Line Supervisors of Transportation and Material Moving Workers, Except Aircraft Cargo Handling Supervisors","61,880",1.2
+"Airline Pilots, Copilots, and Flight Engineers","154,640",15.8
+Commercial Pilots,"95,750",5.5
+Air Traffic Controllers,"137,400",3
+Airfield Operations Specialists,"61,500",3
+Flight Attendants,"44,860",6.6
+"Ambulance Drivers and Attendants, Except Emergency Medical Technicians","34,480",4.8
+"Bus Drivers, Transit and Intercity","57,570",4.7
+"Bus Drivers, School or Special Client","40,590",1.5
+Driver/Sales Workers,"28,860",3.1
+Heavy and Tractor-Trailer Truck Drivers,"50,910",1.3
+Light Truck or Delivery Services Drivers,"38,570",1.9
+Taxi Drivers and Chauffeurs,"34,090",2.6
+"Motor Vehicle Operators, All Other","35,720",3.1
+Railroad Conductors and Yardmasters,"56,180",3.4
+Subway and Streetcar Operators,"72,140",5.2
+Sailors and Marine Oilers,"47,170",5.2
+"Captains, Mates, and Pilots of Water Vessels","89,440",5.1
+Motorboat Operators,"48,350",3.8
+Ship Engineers,"93,770",4.1
+Bridge and Lock Tenders,"45,430",2
+Parking Lot Attendants,"24,040",1
+Automotive and Watercraft Service Attendants,"22,440",1.4
+Traffic Technicians,"55,570",6.3
+Transportation Inspectors,"69,670",4.1
+"Transportation Attendants, Except Flight Attendants","28,920",5.5
+"Transportation Workers, All Other","44,890",6.3
+Conveyor Operators and Tenders,"38,040",8.3
+Crane and Tower Operators,"103,730",6.9
+Excavating and Loading Machine and Dragline Operators,"64,490",5.3
+Industrial Truck and Tractor Operators,"39,050",1.6
+Cleaners of Vehicles and Equipment,"31,400",11.5
+"Laborers and Freight, Stock, and Material Movers, Hand","30,920",1
+Machine Feeders and Offbearers,"29,720",2.9
+"Packers and Packagers, Hand","24,990",1.1
+Gas Compressor and Gas Pumping Station Operators,"55,350",11.6
+"Pump Operators, Except Wellhead Pumpers","45,270",3.7
+Refuse and Recyclable Material Collectors,"56,300",3.6
+"Tank Car, Truck, and Ship Loaders","57,190",7.4
+"Material Moving Workers, All Other","53,160",4.1

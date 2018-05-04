@@ -87,14 +87,17 @@
     d3.json("nyc-pediacities-neighborhoods-polygon-v2.geo.geojson", function(error, nyc) {
       if (error) return console.error(error);
 
-
+map_neighborhoods = []
+data_neighborhoods = []
       for (var i = 0; i < averages.length; i++) {
           var dataNeighborhood = averages[i].key;
+          data_neighborhoods.push(averages[i].key)
           var dataValue = (+averages[i].value);
 
           for(var j = 0; j < nyc.features.length; j++) {
 
             var jsonNeighborhood = nyc.features[j].properties.neighborhood;
+
 
             if (dataNeighborhood == jsonNeighborhood) {
               nyc.features[j].properties.value = dataValue;
@@ -104,33 +107,28 @@
 
           }
         }
+for (var i=0;i<nyc.features.length;i++) {
+  map_neighborhoods.push(nyc.features[i].properties.neighborhood)
+}
+// console.log(map_neighborhoods)
+// console.log(data_neighborhoods)
+matched_neighborhoods = []
+unmatched_neighborhoods = []
+for (var i=0;i<map_neighborhoods.length; i++) {
+  if (map_neighborhoods[i] == data_neighborhoods[i]) {
+    matched_neighborhoods.push(map_neighborhoods[i])
+  } else {
+  unmatched_neighborhoods.push(map_neighborhoods[i])
+  }
+};
+// console.log(matched_neighborhoods)
+// console.log(unmatched_neighborhoods)
         value_array = []
         for(var i = 0; i< nyc.features.length; i++) {
           value_array.push(nyc.features[i].properties.value)
         }
-        console.log(value_array)
-        console.log(d3.min(value_array))
-        console.log(d3.max(value_array))
-        color.domain([d3.min(value_array), d3.max(value_array)])
+        color.domain([d3.min(value_array), d3.max(value_array)]);
 
-        // for(var i=0; i<nyc.features.length; i++) {
-        //   console.log(color(nyc.features[i].properties.value))
-        // }
-// matched_neighborhoods = []
-// unmatched_neighborhoods = []
-// for(var i=0; i<averages.length; i++) {
-//   if (nyc.features[i].properties.neighborhood == averages[i].key) {
-//     matched_neighborhoods.push(averages[i].key)
-//   } else {
-//     unmatched_neighborhoods.push(nyc.features[i].properties.neighborhood)
-//   }
-// }
-// console.log(matched_neighborhoods)
-// console.log(unmatched_neighborhoods)
-console.log(averages)
-// console.log(nyc.features[0].properties.value)
-// console.log(nyc.features)
-// console.log(color(nyc.features[20].properties.value))
       map_svg.selectAll("path")
         .data(nyc.features)
         .enter()

@@ -20,41 +20,15 @@
               })
               .entries(data)
 
-      var neighborhoods = d3.nest()
-                .key(function(d){ return d.borough;})
-                .key(function(d){ return d.neighborhood})
-                .rollup(function(d){
-                  return d3.mean(d, function(e){
-                    return e.price;
-                  })
-                })
-                .entries(data)
-    var new_array = {}
-    new_array['key'] = 'All Boroughs'
-    new_array['values'] = totals
-    neighborhoods.push(new_array)
-    // console.log(neighborhoods)
-// Dropdown
-      for (let i=0; i < neighborhoods.length; i++) {
-        let menuItem = document.createElement("li");
-        menuItem.appendChild(document.createTextNode(neighborhoods[i].key));
-        document.getElementById("dropdown1").appendChild(menuItem);
-        menuItem.addEventListener("click", function(){
-          group = neighborhoods[i].key
-          document.getElementById("title1").innerHTML = group
-          bar_chart(neighborhoods[i].values);
-        });
-      }
 
-
-      var width = 1100;
-      var height = 700;
+      var width = 700;
+      var height = 500;
 
       var margin = {
         top: 20,
-        left: 250,
+        left: 150,
         bottom: 50,
-        right: 250
+        right: 100
       }
 
       var svg = d3.select("#vis2")
@@ -93,13 +67,13 @@
     svg.append("text")
             .attr("text-anchor", "middle")
             .attr("transform", "rotate(-90)")
-            .attr("y", -160)
+            .attr("y", -110)
             .attr("x",-220)
-            .text("Region");
+            .text("Borough");
 
       svg.append("text")
                   .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
-                  .attr("y", 665)
+                  .attr("y", 465)
                   .attr("x", 240)
                   .text("Price ($M)");
 
@@ -108,16 +82,10 @@
         .attr("class", "tooltip")
         .style("opacity", 0);
 
-      function bar_chart(totals) {
-        y_scale.domain(totals.map(function (d){ return d.key; }))
-        x_scale.domain([0, d3.max(totals, function(d){return d.value})]);
+      function barChart(totals) {
 
         var bars = svg.selectAll('.bar')
           .data(totals)
-
-        bars
-          .exit()
-          .remove();
 
         var new_bars = bars
           .enter()
@@ -132,7 +100,7 @@
                   .style("opacity", .9);
                 tooltip.text("$"+d3.format(".2f")(d.value) + "M")
                   .attr("x",  x_scale(d.value) + 20 + "px")
-                  .attr("y", y_scale(d.key) + y_scale.bandwidth() - 5 + "px");
+                  .attr("y", y_scale(d.key) + y_scale.bandwidth() - 25 + "px");
               })
               .on("mouseout", function(d) {
                 tooltip.transition()
@@ -153,7 +121,7 @@
           .call(y_axis)
       }
 
-      bar_chart(totals);
+      barChart(totals);
 
     });
 

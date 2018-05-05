@@ -69,7 +69,10 @@
     .domain([1, 5])
     .rangeRound([220, 980]);
 
-
+    var tooltip = map_svg
+      .append("text")
+      .attr("class", "tooltip")
+      .style("opacity", 0);
 
     g.selectAll("rect")
       .data(color.range().map(function(d) {
@@ -115,7 +118,7 @@ for (var i=0;i<nyc.features.length;i++) {
 matched_neighborhoods = []
 unmatched_neighborhoods = []
 for (var i=0;i<map_neighborhoods.length; i++) {
-  if (map_neighborhoods[i] == data_neighborhoods[i]) {
+  if (data_neighborhoods.includes(map_neighborhoods[i]) == true) {
     matched_neighborhoods.push(map_neighborhoods[i])
   } else {
   unmatched_neighborhoods.push(map_neighborhoods[i])
@@ -146,7 +149,32 @@ for (var i=0;i<map_neighborhoods.length; i++) {
           .attr('data-value', function(d) { return d.properties.value})
           .attr('stroke', 'black')
           .attr('stroke-width', '0.5px')
-          .attr("d", path);
+          .attr("d", path)
+          .on("mouseover", function(d) {
+                let this_value = d.properties.value;
+                  tooltip.transition()
+                    .duration(200)
+                    .style("opacity", .9);
+                    d3.select(this).attr('fill', 'steelblue');
+                  tooltip.text(d.properties.neighborhood)
+                    .style("x", 200 +"px")
+                    .style("y", - 228 + "px");
+
+              })
+              .on("mouseout", function(d) {
+                d3.select(this).style('fill', function(d) {
+                        var value = d.properties.value;
+
+                        if(value) {
+                          return color(value);
+                        } else {
+                          return '#ccc';
+                        }
+                      })
+                tooltip.transition()
+                  .duration(500)
+                  .style("opacity", 0);
+              });
 
         });
       });

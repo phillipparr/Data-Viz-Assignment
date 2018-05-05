@@ -1,5 +1,5 @@
 (function(){
-  var rowConverter = function(d) {
+  var rowConverter1 = function(d) {
     return {
       "Job Title": d["Job Title"],
       "Level": d["Level"],
@@ -7,175 +7,111 @@
       "Group": d["Group"]
     };
   }
-// Open the csv
-  d3.csv("nyc_salary.csv", rowConverter, function(data){
-  var nested_jobs = d3.nest()
-            .key(function(d){ return d.Group;})
-            .entries(data)
-
-//Dropdown change function
+  var rowConverter = function(d) {
+    return {
+      "borough": d["Borough"],
+      "neighborhood": d["Neighborhood"],
+      "building": d["Building Class Category"],
+      "price": parseFloat(d["Sale Price($M)"])
+    };
+  }
+// Open the first csv
+  d3.csv("nyc_salary.csv", rowConverter1, function(data){
+    // Jobs Dropdowns
+    // jobs_containter.style.display = 'none';
+    var nested_jobs = d3.nest()
+              .key(function(d){ return d.Group;})
+              .entries(data)
+console.log(nested_jobs[1])
+    job_btn.style.display = 'none';
     for (let i=0; i < nested_jobs.length; i++) {
-      let menuItem = document.createElement("li");
-      menuItem.appendChild(document.createTextNode(nested_jobs[i].key));
-      document.getElementById("dropdown").appendChild(menuItem);
-      // menuItem.addEventListener("click", function(){
-      //   group = nested_jobs[i].key
-      //   document.getElementById("title").innerHTML = group
-      //   bar_chart(group, );
-      // });
+      let menuItem1 = document.createElement("li");
+      menuItem1.appendChild(document.createTextNode(nested_jobs[i].key));
+      document.getElementById("dropdown4").appendChild(menuItem1);
+      menuItem1.addEventListener("click", function(){
+        job_btn.style.display = 'block';
+        job_btn.innerHTML = nested_jobs[i].key;
+        second_jobs_dropdown(nested_jobs[i].values)
+        salary.style.display = 'none';
+      });
     }
 
-    var job_titles = []
-    function major_job_titles(d) {
-      for(var i=0; i<d.length; i++) {
-        if(d[i].Level == 'total') {
-          job_titles.push(d[i])
-        }
-        else if(d[i].Level == "major") {
-        job_titles.push(d[i])
-        }
+    function second_jobs_dropdown(group) {
+      myNode1 = document.getElementById("dropdown5")
+      while (myNode1.firstChild) {
+          myNode1.removeChild(myNode1.firstChild);
+          }
+      for (let i=0; i < group.length; i++) {
+        let menuItem2 = document.createElement("li");
+        menuItem2.appendChild(document.createTextNode(group[i]['Job Title']));
+        document.getElementById("dropdown5").appendChild(menuItem2);
+        menuItem2.addEventListener("click", function(){
+          salary.style.display = 'block';
+          group1 = group[i]['Job Title']
+          console.log(group[i]["Annual Mean"])
+          document.getElementById("salary").innerHTML = group1 + " Average Salary: $" + d3.format(",")(group[i]["Annual Mean"]);
+
+        });
       }
     }
-    major_job_titles(data);
-    console.log(job_titles)
-    console.log(job_titles.map(function (d){ return d['Job Title']; }))
+    d3.csv("nyc_sales_detailed.csv", rowConverter, function(data){
+      // Cities dropdown
+      var totals = d3.nest()
+                .key(function(d){ return d.borough;})
+                .rollup(function(d){
+                  return d3.mean(d, function(e){
+                    return e.price;
+                  })
+                })
+                .entries(data)
 
+        var neighborhoods = d3.nest()
+                  .key(function(d){ return d.borough;})
+                  .key(function(d){ return d.neighborhood})
+                  .rollup(function(d){
+                    return d3.mean(d, function(e){
+                      return e.price;
+                    })
+                  })
+                  .entries(data)
+      var new_array = {}
+      new_array['key'] = 'All Boroughs'
+      new_array['values'] = totals
+      neighborhoods.push(new_array)
+      console.log(neighborhoods[0])
 
-    var width = 700;
-    var height = 500;
+      city_btn.style.display = 'none';
 
-    var margin = {
-      top: 20,
-      left: 250,
-      bottom: 50,
-      right: 100
-    }
-
-    var svg = d3.select("#vis1")
-      .append('svg')
-      .attr('width', width)
-      .attr('height', height)
-      .append('g')
-      .attr('transform', 'translate(' + margin.left + ',' + margin.top +')');
-
-    width = width - margin.left - margin.right;
-    height = height - margin.top - margin.bottom;
-
-    var y_scale = d3.scaleBand()
-      .range([height,0])
-      .paddingInner(0.1);
-
-
-    var x_scale = d3.scaleLinear()
-      .range([0, width])
-
-    var x_axis = d3.axisBottom(x_scale);
-
-    var y_axis = d3.axisLeft(y_scale);
-
-    svg.append('g')
-      .attr('transform', 'translate(0, ' + height +')')
-      .attr('class','x axis');
-
-    svg.append('g')
-      .attr('class', 'y axis');
-
-// Axis labels
-    svg.append("text")
-            .attr("text-anchor", "middle")
-            .attr("transform", "rotate(-90)")
-            .attr("y", -210)
-            .attr("x",-220)
-            .text("Job Group");
-
-      svg.append("text")
-                  .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
-                  .attr('y', 465)
-                  .attr("x", 220)
-                  .text("Salary ($)");
-
-    var tooltip = svg
-      .append("text")
-      .attr("class", "tooltip")
-      .style("opacity", 0);
-
-// console.log(nested_jobs.map(function(d) { return d.key}))
-
-
-    function bar_chart(job_group, group_data) {
-      function job_list(job_group) {
-        job_list = []
-        group = []
-        for (var i = 0; i<nested_jobs.length; i++) {
-          if (nested_jobs[i].key == job_group) {
-            group.push(nested_jobs[i].values)
-            one = nested_jobs[i].values
-            for (var i = 0; i<one.length; i++) {
-                job_list.push(one[i]['Job Title'])
-              }
+      for (let i=0; i < neighborhoods.length; i++) {
+        let menuItem = document.createElement("li");
+        menuItem.appendChild(document.createTextNode(neighborhoods[i].key));
+        document.getElementById("dropdown2").appendChild(menuItem);
+        menuItem.addEventListener("click", function(){
+          city_btn.style.display = 'block';
+          city_btn.innerHTML = neighborhoods[i].key;
+          second_cities_dropdown(neighborhoods[i].values);
+          price.style.display = 'none';
+        });
+      }
+      function second_cities_dropdown(borough) {
+        myNode = document.getElementById("dropdown3")
+        while (myNode.firstChild) {
+            myNode.removeChild(myNode.firstChild);
             }
-          }
-          return job_list
+        for (let i=0; i < borough.length; i++) {
+          let menuItem3 = document.createElement("li");
+          menuItem3.appendChild(document.createTextNode(borough[i].key));
+          document.getElementById("dropdown3").appendChild(menuItem3);
+          menuItem3.addEventListener("click", function(){
+            group = borough[i].key
+            document.getElementById("price").innerHTML = group + " Average House Price: $" + d3.format(".2f")(borough[i].value) + " Million";
+            price.style.display = 'block';
+          });
         }
-    function annual_means(job_group) {
-      group = []
-      annual_means = []
-      for (var i = 0; i<nested_jobs.length; i++) {
-        if (nested_jobs[i].key == job_group) {
-          group.push(nested_jobs[i].values)
-          one = nested_jobs[i].values
-          for (var i = 0; i<one.length; i++) {
-              annual_means.push(one[i]['Annual Mean'])
-            }
-          }
-        }
-        return annual_means
-    }
-      means = annual_means(job_group)
-      console.log(means)
-      console.log(d3.max(means))
-      y_scale.domain(function(d) {return job_list(job_group)});
-      x_scale.domain([0, d3.max(means)]);
+      }
 
 
-      var bars = svg.selectAll('.bar')
-        .data(group_data)
 
-      var new_bars = bars
-        .enter()
-        .append('rect')
-        .attr('class', 'bar')
-        .attr('fill', 'rgb(152, 171, 197)')
-        .attr('width', '10px')
-      //   .on("mouseover", function(d) {
-      //         tooltip.transition()
-      //           .duration(200)
-      //           .style("opacity", .9);
-      //         tooltip.text("$"+d3.format(",")(d['Annual Mean']))
-      //           .attr("x",  x_scale(d['Annual Mean']) + 40 + "px")
-      //           .attr("y", y_scale(d["Job Title"]) + y_scale.bandwidth() - 3 + "px");
-      //       })
-      //       .on("mouseout", function(d) {
-      //         tooltip.transition()
-      //           .duration(500)
-      //           .style("opacity", 0);
-      // });
-
-
-      new_bars.merge(bars)
-        .attr('width', console.log(x_scale(group_data['Annual Mean'])), function(d) {return x_scale(group_data['Annual Mean'])})
-        .attr('height', function(d) {return y_scale.bandwidth()})
-        .attr('x', 0)
-        .attr('y', function(d) {return y_scale(group_data["Job Title"])});
-
-      svg.select('.x.axis')
-        .call(x_axis);
-
-      svg.select('.y.axis')
-        .call(y_axis)
-    }
-
-    bar_chart("Major Group", job_titles);
+    });
   });
-
 })();

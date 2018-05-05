@@ -3,36 +3,32 @@
     return {
       "Job Title": d["Job Title"],
       "Level": d["Level"],
-      "Annual Mean": parseFloat(+d["Annual Mean"].split(',').join('')),
-      "Group": d["Group"]
+      "Annual Mean": parseFloat(+d["Annual Mean"].split(',').join(''))
     };
   }
 // Open the csv
   d3.csv("nyc_salary.csv", rowConverter, function(data){
-  var nested_jobs = d3.nest()
-            .key(function(d){ return d.Group;})
-            .entries(data)
-// console.log(nested_jobs)
-//Dropdown change function
-    for (let i=0; i < nested_jobs.length; i++) {
-      let menuItem = document.createElement("li");
-      menuItem.appendChild(document.createTextNode(nested_jobs[i].key));
-      document.getElementById("dropdown").appendChild(menuItem);
-      menuItem.addEventListener("click", function(){
-        group = nested_jobs[i].key
-        document.getElementById("title").innerHTML = group
-        bar_chart(nested_jobs[i].values);
-      });
+    // console.log(data)
+    var job_titles = []
+    function major_job_titles(d) {
+      for(var i=0; i<d.length; i++) {
+        if(d[i].Level == "major") {
+        job_titles.push(d[i])
+        }
+      }
     }
+    major_job_titles(data);
+    console.log("vis 1 total data", job_titles)
 
-    var width = 1300;
-    var height = 700;
+
+    var width = 700;
+    var height = 500;
 
     var margin = {
       top: 20,
-      left: 350,
+      left: 250,
       bottom: 50,
-      right: 350
+      right: 100
     }
 
     var svg = d3.select("#vis1")
@@ -47,11 +43,15 @@
 
     var y_scale = d3.scaleBand()
       .range([height,0])
+      .domain(job_titles.map(function (d){ return d['Job Title']; }))
       .paddingInner(0.1);
-
+console.log('vis 1 y_scale domain: ', job_titles.map(function (d){ return d['Job Title']; }))
+console.log("vis 1 y_scale: ", y_scale(job_titles['Job Title']))
 
     var x_scale = d3.scaleLinear()
       .range([0, width])
+      .domain([0, d3.max(job_titles, function(d){return d['Annual Mean']})]);
+console.log("vis 1 x_scale domain: ", d3.max(job_titles, function(d){return d['Annual Mean']}))
 
     var x_axis = d3.axisBottom(x_scale);
 
@@ -68,13 +68,13 @@
     svg.append("text")
             .attr("text-anchor", "middle")
             .attr("transform", "rotate(-90)")
-            .attr("y", -320)
-            .attr("x",-420)
+            .attr("y", -210)
+            .attr("x",-220)
             .text("Job Group");
 
       svg.append("text")
                   .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
-                  .attr('y', 665)
+                  .attr('y', 465)
                   .attr("x", 220)
                   .text("Salary ($)");
 
@@ -83,40 +83,31 @@
       .attr("class", "tooltip")
       .style("opacity", 0);
 
-
-
-    function bar_chart(group_data) {
-
-      y_scale.domain(group_data.map(function (d){ return d['Job Title']; }))
-      x_scale.domain([0, d3.max(group_data, function(d){return d['Annual Mean']})]);
-
+    function barChart(job_titles) {
 
       var bars = svg.selectAll('.bar')
-        .data(group_data)
-
-      bars
-        .exit()
-        .remove();
+        .data(job_titles)
 
       var new_bars = bars
         .enter()
         .append('rect')
         .attr('class', 'bar')
         .attr('fill', 'rgb(152, 171, 197)')
+        .attr('width', '10px')
         .on("mouseover", function(d) {
               tooltip.transition()
                 .duration(200)
                 .style("opacity", .9);
               tooltip.text("$"+d3.format(",")(d['Annual Mean']))
                 .attr("x",  x_scale(d['Annual Mean']) + 40 + "px")
-                .attr("y", y_scale(d["Job Title"]) + y_scale.bandwidth() - 5 + "px");
+                .attr("y", y_scale(d["Job Title"]) + y_scale.bandwidth() - 3 + "px");
             })
             .on("mouseout", function(d) {
               tooltip.transition()
                 .duration(500)
                 .style("opacity", 0);
       });
-
+// console.log("vis 1 new bar width: ",function(d) {return x_scale(d['Annual Mean'])})
 
       new_bars.merge(bars)
         .attr('width',  function(d) {return x_scale(d['Annual Mean'])})
@@ -130,9 +121,8 @@
       svg.select('.y.axis')
         .call(y_axis)
     }
-    values = nested_jobs[0].values
 
-    bar_chart(values);
+    barChart(job_titles);
   });
 
 })();

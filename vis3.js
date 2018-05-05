@@ -16,7 +16,7 @@
     for(var j = 0; j<amounts.length; j++) {
       amounts[j].values = amounts[j].values.length
       }
-    console.log(amounts)
+    // console.log(amounts)
 
     var width = 700;
     var height = 500;
@@ -33,7 +33,7 @@
         .sort(null)
         .value(function(d) { return d.values; });
 
-console.log(pie(amounts))
+// console.log(pie(amounts))
 
     var svg = d3.select("#vis3")
       .append('svg')

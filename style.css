@@ -5,9 +5,23 @@ h3 {
   font-size: 1.2em;
   color: #ff8c00;
 }
-
+#vis1 {
+  margin: auto;
+  width: 80vw;
+}
+#results_container {
+  display: flex;
+  flex-direction: column;
+}
+#results_container div {
+  margin: 5px;
+}
+/* .dropdownContainer.jobs {
+  display: none;
+} */
 /* Styling for the dropdown menu */
 /* Dropdown Button */
+
 .dropbtn {
     background-color: steelblue;
     color: white;
@@ -17,15 +31,43 @@ h3 {
     cursor: pointer;
     transition: background-color .8s;
 }
+/* style specific buttons */
+#city_btn {
+    background-color: steelblue;
+    color: white;
+    padding: 14px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    transition: background-color .8s;
+}
+#city_btn:hover {
+    background-color: turquoise;
+    color: white;
+}
+
+#job_btn {
+    background-color: steelblue;
+    color: white;
+    padding: 14px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    transition: background-color .8s;
+}
+#job_btn:hover {
+    background-color: turquoise;
+    color: white;
+}
 
 /* setting up the container for the dropdown */
-#dropdownContainer {
+.dropdownContainer {
     position: relative;
     display: inline-block;
 }
 
 /* Styling the dropdown content and hiding it */
-#dropdown {
+.dropdownContainer div {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -37,7 +79,7 @@ h3 {
 }
 
 /* Links inside the dropdown */
-#dropdown li {
+.dropdownContainer div li {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -45,12 +87,12 @@ h3 {
     cursor: pointer;
 }
 
-#dropdown li:hover {
+.dropdownContainer div li:hover {
   background-color: #f1f1f1;
 }
 
  /*Show the dropdown menu on hover*/
-#dropdownContainer:hover #dropdown {
+.dropdownContainer:hover div {
     display: block;
 }
 

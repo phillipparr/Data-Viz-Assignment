@@ -47,14 +47,14 @@
       }
 
 
-      var width = 1100;
-      var height = 700;
+      var width = 700;
+      var height = 600;
 
       var margin = {
         top: 20,
-        left: 250,
+        left: 150,
         bottom: 50,
-        right: 250
+        right: 150
       }
 
       var svg = d3.select("#vis2")
@@ -93,13 +93,13 @@
     svg.append("text")
             .attr("text-anchor", "middle")
             .attr("transform", "rotate(-90)")
-            .attr("y", -160)
+            .attr("y", -130)
             .attr("x",-220)
             .text("Region");
 
       svg.append("text")
                   .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
-                  .attr("y", 665)
+                  .attr("y", 565)
                   .attr("x", 240)
                   .text("Price ($M)");
 
@@ -125,13 +125,14 @@
           .attr('class', 'bar')
           .attr('fill', 'rgb(152, 171, 197)')
           .attr('width', '10px')
+          .style('opacity', .7)
           .on("mouseover", function(d) {
               // console.log(d);
                 tooltip.transition()
                   .duration(200)
-                  .style("opacity", .9);
+                  .style("opacity", 1);
                 tooltip.text("$"+d3.format(".2f")(d.value) + "M")
-                  .attr("x",  x_scale(d.value) + 20 + "px")
+                  .attr("x",  x_scale(d.value) + 50 + "px")
                   .attr("y", y_scale(d.key) + y_scale.bandwidth() - 5 + "px");
               })
               .on("mouseout", function(d) {

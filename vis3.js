@@ -18,9 +18,16 @@
       }
     // console.log(amounts)
 
-    var width = 700;
-    var height = 500;
-    var radius = Math.min(width, height) / 2;
+    var width = 600;
+    var height = 600;
+    var radius = Math.min(width, height) / 3;
+
+    var margin = {
+      top: 250,
+      left: 350,
+      bottom: 50,
+      right: 50
+    }
 
     var color = d3.scaleOrdinal()
         .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
@@ -40,7 +47,11 @@
       .attr('width', width)
       .attr('height', height)
       .append('g')
-      .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+      .attr('transform', 'translate(' + margin.left + ',' + margin.top +')');
+
+    width = width - margin.left - margin.right;
+    height = height - margin.top - margin.bottom;
+      // .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
 
     var textg = svg.append("g")

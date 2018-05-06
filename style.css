@@ -1,3 +1,6 @@
+body {
+  font-family: 'Saira Extra Condensed', sans-serif;
+}
 h3 {
   margin: 20px;
 }
@@ -16,10 +19,21 @@ h3 {
 #results_container div {
   margin: 5px;
 }
-/* .dropdownContainer.jobs {
-  display: none;
-} */
-/* Styling for the dropdown menu */
+#explanation {
+  width: 70vw;
+}
+
+#flex_container {
+  display: flex;
+}
+
+#vis2 {
+  width: 50vw;
+}
+.subcontainer {
+  flex-direction: column;
+}
+/* Styling for the dropdown menus */
 /* Dropdown Button */
 
 .dropbtn {
@@ -59,7 +73,34 @@ h3 {
     background-color: turquoise;
     color: white;
 }
+#mortgage_btn {
+    margin-top: 20px;
+    background-color: steelblue;
+    color: white;
+    padding: 14px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    transition: background-color .8s;
+}
+#mortgage_btn:hover {
+    background-color: turquoise;
+    color: white;
+}
 
+#main_job_btn {
+    background-color: steelblue;
+    color: white;
+    padding: 14px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    transition: background-color .8s;
+}
+#main_job_btn:hover {
+    background-color: turquoise;
+    color: white;
+}
 /* setting up the container for the dropdown */
 .dropdownContainer {
     position: relative;

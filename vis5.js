@@ -22,8 +22,13 @@
     var nested_jobs = d3.nest()
               .key(function(d){ return d.Group;})
               .entries(data)
-console.log(nested_jobs[1])
+
+    var job_salary;
+
+    mortgage_btn.style.display = 'none';
+    main_job_btn.style.display = 'none';
     job_btn.style.display = 'none';
+    explanation.style.display = 'none';
     for (let i=0; i < nested_jobs.length; i++) {
       let menuItem1 = document.createElement("li");
       menuItem1.appendChild(document.createTextNode(nested_jobs[i].key));
@@ -48,9 +53,9 @@ console.log(nested_jobs[1])
         menuItem2.addEventListener("click", function(){
           salary.style.display = 'block';
           group1 = group[i]['Job Title']
-          console.log(group[i]["Annual Mean"])
-          document.getElementById("salary").innerHTML = group1 + " Average Salary: $" + d3.format(",")(group[i]["Annual Mean"]);
-
+          job_salary = group[i]["Annual Mean"];
+          document.getElementById("salary").innerHTML = group1 + " Average Salary: $" + d3.format(",")(job_salary);
+          mortgage_btn.style.display = 'block';
         });
       }
     }
@@ -78,7 +83,8 @@ console.log(nested_jobs[1])
       new_array['key'] = 'All Boroughs'
       new_array['values'] = totals
       neighborhoods.push(new_array)
-      console.log(neighborhoods[0])
+
+      var house_price;
 
       city_btn.style.display = 'none';
 
@@ -106,10 +112,38 @@ console.log(nested_jobs[1])
             group = borough[i].key
             document.getElementById("price").innerHTML = group + " Average House Price: $" + d3.format(".2f")(borough[i].value) + " Million";
             price.style.display = 'block';
+            house_price = borough[i].value * 1000000;
+            main_job_btn.style.display = 'block';
           });
         }
       }
-
+      document.getElementById('mortgage_btn').addEventListener("click", function() {
+        calculate_mortgage(job_salary, house_price)
+      })
+      function calculate_mortgage(salary, price) {
+        explanation.style.display = 'block';
+        small_downpayment = Math.floor(price - (price * .035));
+        document.getElementById('small_downpayment').innerHTML = "Mortgage amount with a small downpayment: $" + d3.format(",")(small_downpayment);
+        big_downpayment = Math.floor(price - (price * .2));
+        document.getElementById('big_downpayment').innerHTML = "Mortgage amount with a big downpayment: $" + d3.format(",")(big_downpayment);
+        payment = (salary * .28)/12;
+        document.getElementById('payment').innerHTML = "Monthly mortgage payment: $" + d3.format(",")(payment);
+        small_years = small_downpayment/(payment*12);
+        document.getElementById('small_years').innerHTML = "Years to pay off mortgage with a small downpayment: " + Math.floor(small_years);
+        big_years = big_downpayment/(payment*12);
+        document.getElementById('big_years').innerHTML = "Years to pay off mortgage with a big downpayment: " + Math.floor(big_years);
+        mortgage_cap = salary * 3;
+        if (mortgage_cap > small_downpayment) {
+          document.getElementById('small_mortgage').innerHTML = "You can get a mortgage with a small downpayment. Hooray!";
+        } else {
+          document.getElementById('small_mortgage').innerHTML = "You likely can't get a mortgage with a small downpayment. Is this why people get married?";
+        };
+        if (mortgage_cap > big_downpayment) {
+          document.getElementById('big_mortgage').innerHTML = "You can get a mortgage with a big downpayment. Good for you.";
+        } else {
+          document.getElementById('big_mortgage').innerHTML = "You likely can't get a mortgage with a big downpayment.";
+        };
+      }
 
 
     });

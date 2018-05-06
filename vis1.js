@@ -9,6 +9,7 @@
   }
 // Open the csv
   d3.csv("nyc_salary.csv", rowConverter, function(data){
+    console.log(data)
   var nested_jobs = d3.nest()
             .key(function(d){ return d.Group;})
             .entries(data)
@@ -25,14 +26,14 @@
       });
     }
 
-    var width = 1300;
-    var height = 700;
+    var width = 900;
+    var height = 600;
 
     var margin = {
       top: 20,
       left: 350,
       bottom: 50,
-      right: 350
+      right: 50
     }
 
     var svg = d3.select("#vis1")
@@ -68,14 +69,14 @@
     svg.append("text")
             .attr("text-anchor", "middle")
             .attr("transform", "rotate(-90)")
-            .attr("y", -320)
-            .attr("x",-420)
+            .attr("y", -338)
+            .attr("x",-250)
             .text("Job Group");
 
       svg.append("text")
                   .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
-                  .attr('y', 665)
-                  .attr("x", 220)
+                  .attr('y', 565)
+                  .attr("x", 120)
                   .text("Salary ($)");
 
     var tooltip = svg
@@ -103,13 +104,14 @@
         .append('rect')
         .attr('class', 'bar')
         .attr('fill', 'rgb(152, 171, 197)')
+        .style('opacity', .7)
         .on("mouseover", function(d) {
               tooltip.transition()
                 .duration(200)
-                .style("opacity", .9);
+                .style("opacity", 1);
               tooltip.text("$"+d3.format(",")(d['Annual Mean']))
-                .attr("x",  x_scale(d['Annual Mean']) + 40 + "px")
-                .attr("y", y_scale(d["Job Title"]) + y_scale.bandwidth() - 5 + "px");
+                .attr("x",  x_scale(d['Annual Mean']) + 20 + "px")
+                .attr("y", y_scale(d["Job Title"]) + y_scale.bandwidth() - 1 + "px");
             })
             .on("mouseout", function(d) {
               tooltip.transition()

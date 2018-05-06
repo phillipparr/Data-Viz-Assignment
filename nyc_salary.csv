@@ -1,6 +1,6 @@
 Job Title,Level,Annual Mean,PRSE,Group
-All,total,62870,0.6,Major Group
-Management,major,161960,0.7,Major Group
+All ,total,62870,0.6,Major Group
+Management ,major,161960,0.7,Major Group
 Chief Executives,detailed,248670,2,Management
 General and Operations Managers,detailed,166470,0.9,Management
 Legislators,detailed,63050,4.9,Management
@@ -34,7 +34,7 @@ Postmasters and Mail Superintendents,detailed,81280,0.9,Management
 Social and Community Service Managers,detailed,91690,1.1,Management
 Emergency Management Directors,detailed,111320,3.1,Management
 "Managers, All Other",detailed,140450,1.3,Management
-Business and Financial Operations,major,97410,0.9,Major Group
+Business and Financial Operations ,major,97410,0.9,Major Group
 "Agents and Business Managers of Artists, Performers, and Athletes",detailed,102040,7.6,Business and Financial Operations
 Buyers and Purchasing Agents,detailed,77640,1.2,Business and Financial Operations
 "Claims Adjusters, Examiners, and Investigators",detailed,73270,1.5,Business and Financial Operations
@@ -64,7 +64,7 @@ Loan Officers,detailed,112860,4.4,Business and Financial Operations
 "Tax Examiners and Collectors, and Revenue Agents",detailed,76250,0.9,Business and Financial Operations
 Tax Preparers,detailed,56550,8.6,Business and Financial Operations
 "Financial Specialists, All Other",detailed,96730,2.7,Business and Financial Operations
-Computer and Mathematical,major,102610,0.8,Major Group
+Computer and Mathematical ,major,102610,0.8,Major Group
 Computer and Information Research Scientists,detailed,135030,2.8,Computer and Information Research Scientists
 Computer Systems Analysts,detailed,111010,1.4,Computer and Information Research Scientists
 Information Security Analysts,detailed,125570,1.5,Computer and Information Research Scientists
@@ -82,8 +82,8 @@ Actuaries,detailed,142510,4.9,Computer and Information Research Scientists
 Mathematicians,detailed,101340,4.2,Computer and Information Research Scientists
 Operations Research Analysts,detailed,107770,2.5,Computer and Information Research Scientists
 Statisticians,detailed,108930,2.7,Computer and Information Research Scientists
-Miscellaneous Mathematical Science,detailed,107730,9.8,Computer and Information Research Scientists
-Architecture and Engineering,major,91520,1,Major Group
+Miscellaneous Mathematical Science ,detailed,107730,9.8,Computer and Information Research Scientists
+Architecture and Engineering ,major,91520,1,Major Group
 "Architects, Except Landscape and Naval",detailed,100860,4,Architecture and Engineering
 Landscape Architects,detailed,78720,5.4,Architecture and Engineering
 Cartographers and Photogrammetrists,detailed,71390,10.4,Architecture and Engineering
@@ -109,7 +109,6 @@ Electrical and Electronics Drafters,detailed,69420,7.5,Architecture and Engineer
 Mechanical Drafters,detailed,66000,3.6,Architecture and Engineering
 "Drafters, All Other",detailed,64730,3.8,Architecture and Engineering
 Aerospace Engineering and Operations Technicians,detailed,61970,2.2,Architecture and Engineering
-Civil Engineering Technicians,detailed,0,*,Architecture and Engineering
 Electrical and Electronics Engineering Technicians,detailed,70020,1.4,Architecture and Engineering
 Electro-Mechanical Technicians,detailed,64710,6.5,Architecture and Engineering
 Environmental Engineering Technicians,detailed,60670,5,Architecture and Engineering
@@ -117,14 +116,13 @@ Industrial Engineering Technicians,detailed,59860,2.9,Architecture and Engineeri
 Mechanical Engineering Technicians,detailed,61750,4.8,Architecture and Engineering
 "Engineering Technicians, Except Drafters, All Other",detailed,69030,2.9,Architecture and Engineering
 Surveying and Mapping Technicians,detailed,54670,3,Architecture and Engineering
-"Life, Physical, and Social Science",major,87460,2.8,Major Group
+"Life, Physical, and Social Science ",major,87460,2.8,Major Group
 Food Scientists and Technologists,detailed,79340,4.7,"Life, Physical, and Social Science"
 Soil and Plant Scientists,detailed,70380,6.4,"Life, Physical, and Social Science"
 Biochemists and Biophysicists,detailed,139550,7.9,"Life, Physical, and Social Science"
 Microbiologists,detailed,76880,2.7,"Life, Physical, and Social Science"
 Zoologists and Wildlife Biologists,detailed,76230,2.1,"Life, Physical, and Social Science"
 "Biological Scientists, All Other",detailed,87390,1.9,"Life, Physical, and Social Science"
-Conservation Scientists,detailed,0,*,"Life, Physical, and Social Science"
 Foresters,detailed,67340,4.6,"Life, Physical, and Social Science"
 Epidemiologists,detailed,92650,5.4,"Life, Physical, and Social Science"
 "Medical Scientists, Except Epidemiologists",detailed,101320,4.3,"Life, Physical, and Social Science"
@@ -157,7 +155,7 @@ Social Science Research Assistants,detailed,57650,2.1,"Life, Physical, and Socia
 Forensic Science Technicians,detailed,68110,1.8,"Life, Physical, and Social Science"
 Forest and Conservation Technicians,detailed,35590,6.1,"Life, Physical, and Social Science"
 "Life, Physical, and Social Science Technicians, All Other",detailed,57320,2.4,"Life, Physical, and Social Science"
-Community and Social Service,major,54830,1.4,Major Group
+Community and Social Service ,major,54830,1.4,Major Group
 "Educational, Guidance, School, and Vocational Counselors",detailed,72200,3.3,Community and Social Service
 Marriage and Family Therapists,detailed,68910,2.4,Community and Social Service
 Rehabilitation Counselors,detailed,41010,2.9,Community and Social Service
@@ -175,7 +173,7 @@ Community Health Workers,detailed,47180,3.2,Community and Social Service
 Clergy,detailed,56630,4.6,Community and Social Service
 "Directors, Religious Activities and Education",detailed,45950,5.9,Community and Social Service
 "Religious Workers, All Other",detailed,33500,9.9,Community and Social Service
-Legal,major,137610,2.3,Major Group
+Legal ,major,137610,2.3,Major Group
 Lawyers,detailed,170530,2.3,Legal
 Judicial Law Clerks,detailed,67640,1.9,Legal
 "Administrative Law Judges, Adjudicators, and Hearing Officers",detailed,98960,1.6,Legal
@@ -185,7 +183,7 @@ Paralegals and Legal Assistants,detailed,61110,1.7,Legal
 Court Reporters,detailed,83220,5.1,Legal
 "Title Examiners, Abstractors, and Searchers",detailed,54370,4.3,Legal
 "Legal Support Workers, All Other",detailed,64530,4.8,Legal
-"Education, Training, and Library",major,68140,1.6,Major Group
+"Education, Training, and Library ",major,68140,1.6,Major Group
 "Business Teachers, Postsecondary",detailed,110210,4.7,"Education, Training, and Library"
 "Computer Science Teachers, Postsecondary",detailed,105490,2.6,"Education, Training, and Library"
 "Mathematical Science Teachers, Postsecondary",detailed,105300,3.6,"Education, Training, and Library"
@@ -247,7 +245,7 @@ Farm and Home Management Advisors,detailed,58190,11.9,"Education, Training, and 
 Instructional Coordinators,detailed,73490,3,"Education, Training, and Library"
 Teacher Assistants,detailed,30350,1.4,"Education, Training, and Library"
 "Education, Training, and Library Workers, All Other",detailed,53020,5.9,"Education, Training, and Library"
-"Arts, Design, Entertainment, Sports, and Media",major,79220,1.2,Major Group
+"Arts, Design, Entertainment, Sports, and Media ",major,79220,1.2,Major Group
 Art Directors,detailed,126760,1.3,"Arts, Design, Entertainment, Sports, and Media"
 Craft Artists,detailed,58810,7.1,"Arts, Design, Entertainment, Sports, and Media"
 "Fine Artists, Including Painters, Sculptors, and Illustrators",detailed,70320,6.4,"Arts, Design, Entertainment, Sports, and Media"
@@ -261,16 +259,11 @@ Interior Designers,detailed,65180,3.7,"Arts, Design, Entertainment, Sports, and 
 Merchandise Displayers and Window Trimmers,detailed,34840,2.6,"Arts, Design, Entertainment, Sports, and Media"
 Set and Exhibit Designers,detailed,77690,3.5,"Arts, Design, Entertainment, Sports, and Media"
 "Designers, All Other",detailed,73110,5.6,"Arts, Design, Entertainment, Sports, and Media"
-Actors,detailed,0,*,"Arts, Design, Entertainment, Sports, and Media"
 Producers and Directors,detailed,119280,2.5,"Arts, Design, Entertainment, Sports, and Media"
 Athletes and Sports Competitors,detailed,95340,14.6,"Arts, Design, Entertainment, Sports, and Media"
 Coaches and Scouts,detailed,56870,4.3,"Arts, Design, Entertainment, Sports, and Media"
-"Umpires, Referees, and Other Sports Officials",detailed,0,*,"Arts, Design, Entertainment, Sports, and Media"
-Dancers,detailed,0,14.1,"Arts, Design, Entertainment, Sports, and Media"
 Choreographers,detailed,88570,11.6,"Arts, Design, Entertainment, Sports, and Media"
 Music Directors and Composers,detailed,91760,10.3,"Arts, Design, Entertainment, Sports, and Media"
-Musicians and Singers,detailed,0,7.5,"Arts, Design, Entertainment, Sports, and Media"
-"Entertainers and Performers, Sports and Related Workers, All Other",detailed,0,8.5,"Arts, Design, Entertainment, Sports, and Media"
 Radio and Television Announcers,detailed,87450,12.8,"Arts, Design, Entertainment, Sports, and Media"
 Public Address System and Other Announcers,detailed,50690,12.3,"Arts, Design, Entertainment, Sports, and Media"
 Broadcast News Analysts,detailed,85890,10.8,"Arts, Design, Entertainment, Sports, and Media"
@@ -289,7 +282,7 @@ Photographers,detailed,50620,6.3,"Arts, Design, Entertainment, Sports, and Media
 "Camera Operators, Television, Video, and Motion Picture",detailed,83800,4.1,"Arts, Design, Entertainment, Sports, and Media"
 Film and Video Editors,detailed,85080,3.1,"Arts, Design, Entertainment, Sports, and Media"
 "Media and Communication Equipment Workers, All Other",detailed,61580,6.9,"Arts, Design, Entertainment, Sports, and Media"
-Healthcare Practitioners and Technical,major,96640,0.9,Major Group
+Healthcare Practitioners and Technical ,major,96640,0.9,Major Group
 "Dentists, General",detailed,164610,5,Healthcare Practitioners and Technical
 Oral and Maxillofacial Surgeons,detailed,270190,9.7,Healthcare Practitioners and Technical
 Orthodontists,detailed,239770,11.8,Healthcare Practitioners and Technical
@@ -348,7 +341,7 @@ Occupational Health and Safety Technicians,detailed,63030,2.7,Healthcare Practit
 Athletic Trainers,detailed,54990,3.1,Healthcare Practitioners and Technical
 Genetic Counselors,detailed,82910,1.3,Healthcare Practitioners and Technical
 "Healthcare Practitioners and Technical Workers, All Other",detailed,82210,3,Healthcare Practitioners and Technical
-Healthcare Support,major,30970,1.1,Major Group
+Healthcare Support ,major,30970,1.1,Major Group
 Home Health Aides,detailed,24280,0.9,Healthcare Support
 Psychiatric Aides,detailed,40090,1.8,Healthcare Support
 Nursing Assistants,detailed,35190,0.6,Healthcare Support
@@ -366,14 +359,13 @@ Pharmacy Aides,detailed,30450,4.1,Healthcare Support
 Veterinary Assistants and Laboratory Animal Caretakers,detailed,31280,2.9,Healthcare Support
 Phlebotomists,detailed,40950,1.2,Healthcare Support
 "Healthcare Support Workers, All Other",detailed,37470,1.7,Healthcare Support
-Protective Service,major,53210,3.2,Major Group
+Protective Service ,major,53210,3.2,Major Group
 First-Line Supervisors of Correctional Officers,detailed,96390,1.9,Protective Service
 First-Line Supervisors of Police and Detectives,detailed,119580,2,Protective Service
 First-Line Supervisors of Fire Fighting and Prevention Workers,detailed,110780,1.6,Protective Service
 "First-Line Supervisors of Protective Service Workers, All Other",detailed,64650,3.8,Protective Service
 Firefighters,detailed,75700,2.4,Protective Service
 Fire Inspectors and Investigators,detailed,55700,2.4,Protective Service
-Forest Fire Inspectors and Prevention Specialists,detailed,0,*,Protective Service
 Bailiffs,detailed,65360,2.7,Protective Service
 Correctional Officers and Jailers,detailed,69180,1.8,Protective Service
 Detectives and Criminal Investigators,detailed,95160,3.7,Protective Service
@@ -388,7 +380,7 @@ Security Guards,detailed,33820,2.3,Protective Service
 Crossing Guards,detailed,33910,1.7,Protective Service
 "Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers",detailed,26240,2,Protective Service
 "Protective Service Workers, All Other",detailed,30960,2.7,Protective Service
-Food Preparation and Serving Related,major,29000,0.8,Major Group
+Food Preparation and Serving Related ,major,29000,0.8,Major Group
 Chefs and Head Cooks,detailed,51090,6.6,Food Preparation and Serving Related
 First-Line Supervisors of Food Preparation and Serving Workers,detailed,43060,1.4,Food Preparation and Serving Related
 "Cooks, Fast Food",detailed,23230,2.3,Food Preparation and Serving Related
@@ -406,7 +398,7 @@ Dining Room and Cafeteria Attendants and Bartender Helpers,detailed,27060,2.6,Fo
 Dishwashers,detailed,25000,1.4,Food Preparation and Serving Related
 "Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop",detailed,26260,1.6,Food Preparation and Serving Related
 "Food Preparation and Serving Related Workers, All Other",detailed,27730,2.8,Food Preparation and Serving Related
-Building and Grounds Cleaning and Maintenance,major,35540,0.9,Major Group
+Building and Grounds Cleaning and Maintenance ,major,35540,0.9,Major Group
 First-Line Supervisors of Housekeeping and Janitorial Workers,detailed,54230,1.6,Building and Grounds Cleaning and Maintenance
 "First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers",detailed,58350,2.4,Building and Grounds Cleaning and Maintenance
 "Janitors and Cleaners, Except Maids and Housekeeping Cleaners",detailed,34420,1.1,Building and Grounds Cleaning and Maintenance
@@ -417,7 +409,7 @@ Landscaping and Groundskeeping Workers,detailed,33720,1.3,Building and Grounds C
 "Pesticide Handlers, Sprayers, and Applicators, Vegetation",detailed,33870,5.1,Building and Grounds Cleaning and Maintenance
 Tree Trimmers and Pruners,detailed,54930,2.9,Building and Grounds Cleaning and Maintenance
 "Grounds Maintenance Workers, All Other",detailed,26930,5.1,Building and Grounds Cleaning and Maintenance
-Personal Care and Service,major,32050,1.1,Major Group
+Personal Care and Service ,major,32050,1.1,Major Group
 First-Line Supervisors of Gaming Workers,detailed,52970,6.9,Personal Care and Service
 First-Line Supervisors of Personal Service Workers,detailed,46620,1.7,Personal Care and Service
 Animal Trainers,detailed,38130,6.4,Personal Care and Service
@@ -446,7 +438,7 @@ Fitness Trainers and Aerobics Instructors,detailed,63520,2.6,Personal Care and S
 Recreation Workers,detailed,32600,1.4,Personal Care and Service
 Residential Advisors,detailed,35930,2.5,Personal Care and Service
 "Personal Care and Service Workers, All Other",detailed,28610,4.4,Personal Care and Service
-Sales and Related,major,53740,1.7,Major Group
+Sales and Related ,major,53740,1.7,Major Group
 First-Line Supervisors of Retail Sales Workers,detailed,51480,1.3,Sales and Related
 First-Line Supervisors of Non-Retail Sales Workers,detailed,108790,2.1,Sales and Related
 Cashiers,detailed,23740,1.8,Sales and Related
@@ -469,7 +461,7 @@ Sales Engineers,detailed,111330,2.6,Sales and Related
 Telemarketers,detailed,28470,3.1,Sales and Related
 "Door-to-Door Sales Workers, News and Street Vendors, and Related Workers",detailed,30520,11.9,Sales and Related
 "Sales and Related Workers, All Other",detailed,49460,2.7,Sales and Related
-Office and Administrative Support,major,43870,0.4,Major Group
+Office and Administrative Support ,major,43870,0.4,Major Group
 First-Line Supervisors of Office and Administrative Support Workers,detailed,70290,0.7,Office and Administrative Support
 "Switchboard Operators, Including Answering Service",detailed,38080,2,Office and Administrative Support
 Telephone Operators,detailed,47730,4.7,Office and Administrative Support
@@ -487,7 +479,6 @@ Correspondence Clerks,detailed,44870,2.1,Office and Administrative Support
 "Court, Municipal, and License Clerks",detailed,59960,1,Office and Administrative Support
 "Credit Authorizers, Checkers, and Clerks",detailed,46060,1.4,Office and Administrative Support
 Customer Service Representatives,detailed,41750,0.7,Office and Administrative Support
-"Eligibility Interviewers, Government Programs",detailed,0,*,Office and Administrative Support
 File Clerks,detailed,33060,1.2,Office and Administrative Support
 "Hotel, Motel, and Resort Desk Clerks",detailed,34180,3.2,Office and Administrative Support
 "Interviewers, Except Eligibility and Loan",detailed,39550,1.4,Office and Administrative Support
@@ -503,7 +494,6 @@ Cargo and Freight Agents,detailed,46810,2.6,Office and Administrative Support
 Couriers and Messengers,detailed,33740,4.5,Office and Administrative Support
 "Police, Fire, and Ambulance Dispatchers",detailed,47480,1.5,Office and Administrative Support
 "Dispatchers, Except Police, Fire, and Ambulance",detailed,48880,5.5,Office and Administrative Support
-"Meter Readers, Utilities",detailed,0,*,Office and Administrative Support
 Postal Service Clerks,detailed,52220,0.9,Office and Administrative Support
 Postal Service Mail Carriers,detailed,50700,0.9,Office and Administrative Support
 "Postal Service Mail Sorters, Processors, and Processing Machine Operators",detailed,50560,1.5,Office and Administrative Support
@@ -526,14 +516,14 @@ Insurance Claims and Policy Processing Clerks,detailed,49290,1.5,Office and Admi
 Proofreaders and Copy Markers,detailed,44830,3.1,Office and Administrative Support
 Statistical Assistants,detailed,55410,3,Office and Administrative Support
 "Office and Administrative Support Workers, All Other",detailed,38780,3.7,Office and Administrative Support
-"Farming, Fishing, and Forestry",major,35600,2,Major Group
+"Farming, Fishing, and Forestry ",major,35600,2,Major Group
 "First-Line Supervisors of Farming, Fishing, and Forestry Workers",detailed,54730,3.8,"Farming, Fishing, and Forestry"
 Agricultural Inspectors,detailed,60670,1.8,"Farming, Fishing, and Forestry"
 "Farmworkers and Laborers, Crop, Nursery, and Greenhouse",detailed,32540,3.8,"Farming, Fishing, and Forestry"
 "Farmworkers, Farm, Ranch, and Aquacultural Animals",detailed,29350,5.8,"Farming, Fishing, and Forestry"
 "Agricultural Workers, All Other",detailed,24910,20.5,"Farming, Fishing, and Forestry"
 Forest and Conservation Workers,detailed,35710,3.9,"Farming, Fishing, and Forestry"
-Construction and Extraction,major,67880,0.9,Major Group
+Construction and Extraction ,major,67880,0.9,Major Group
 First-Line Supervisors of Construction Trades and Extraction Workers,detailed,89670,1.1,Construction and Extraction
 Boilermakers,detailed,64780,8.7,Construction and Extraction
 Brickmasons and Blockmasons,detailed,76130,3.9,Construction and Extraction
@@ -546,7 +536,6 @@ Tile and Marble Setters,detailed,76830,7.4,Construction and Extraction
 Cement Masons and Concrete Finishers,detailed,74960,2.4,Construction and Extraction
 Construction Laborers,detailed,52910,1.5,Construction and Extraction
 "Paving, Surfacing, and Tamping Equipment Operators",detailed,66060,12.7,Construction and Extraction
-Pile-Driver Operators,detailed,0,*,Construction and Extraction
 Operating Engineers and Other Construction Equipment Operators,detailed,85000,1.9,Construction and Extraction
 Drywall and Ceiling Tile Installers,detailed,61350,7.6,Construction and Extraction
 Tapers,detailed,63840,5.7,Construction and Extraction
@@ -583,7 +572,7 @@ Miscellaneous Construction and Related Workers,detailed,51510,13.9,Construction 
 "Explosives Workers, Ordnance Handling Experts, and Blasters",detailed,68700,9.4,Construction and Extraction
 "Rock Splitters, Quarry",detailed,32360,11.5,Construction and Extraction
 Helpers--Extraction Workers,detailed,35030,15.5,Construction and Extraction
-"Installation, Maintenance, and Repair",major,54630,0.8,Major Group
+"Installation, Maintenance, and Repair ",major,54630,0.8,Major Group
 "First-Line Supervisors of Mechanics, Installers, and Repairers",detailed,81450,0.8,"Installation, Maintenance, and Repair"
 "Computer, Automated Teller, and Office Machine Repairers",detailed,45510,2.5,"Installation, Maintenance, and Repair"
 "Radio, Cellular, and Tower Equipment Installers and Repairers",detailed,69800,4.3,"Installation, Maintenance, and Repair"
@@ -632,7 +621,7 @@ Riggers,detailed,70180,6.1,"Installation, Maintenance, and Repair"
 Signal and Track Switch Repairers,detailed,71210,6.1,"Installation, Maintenance, and Repair"
 "Helpers--Installation, Maintenance, and Repair Workers",detailed,34990,3.6,"Installation, Maintenance, and Repair"
 "Installation, Maintenance, and Repair Workers, All Other",detailed,38960,2.9,"Installation, Maintenance, and Repair"
-Production,major,39880,0.6,Major Group
+Production ,major,39880,0.6,Major Group
 First-Line Supervisors of Production and Operating Workers,detailed,71530,0.9,Production
 "Aircraft Structure, Surfaces, Rigging, and Systems Assemblers",detailed,43320,6.6,Production
 "Coil Winders, Tapers, and Finishers",detailed,36680,3.5,Production
@@ -682,7 +671,6 @@ Laundry and Dry-Cleaning Workers,detailed,25210,1.6,Production
 Sewing Machine Operators,detailed,26980,3,Production
 Shoe and Leather Workers and Repairers,detailed,26280,6,Production
 "Sewers, Hand",detailed,25870,4.7,Production
-"Tailors, Dressmakers, and Custom Sewers",detailed,0,*,Production
 Textile Bleaching and Dyeing Machine Operators and Tenders,detailed,30660,4.5,Production
 "Textile Cutting Machine Setters, Operators, and Tenders",detailed,34230,2.8,Production
 "Textile Knitting and Weaving Machine Setters, Operators, and Tenders",detailed,27810,10.5,Production
@@ -731,7 +719,7 @@ Etchers and Engravers,detailed,35670,10.6,Production
 Tire Builders,detailed,27020,3.7,Production
 Helpers--Production Workers,detailed,28600,1.7,Production
 "Production Workers, All Other",detailed,33170,3.7,Production
-Transportation and Material Moving,major,41060,2.5,Major Group
+Transportation and Material Moving ,major,41060,2.5,Major Group
 Aircraft Cargo Handling Supervisors,detailed,49880,4.7,Transportation and Material Moving
 "First-Line Supervisors of Transportation and Material Moving Workers, Except Aircraft Cargo Handling Supervisors",detailed,61880,1.2,Transportation and Material Moving
 "Airline Pilots, Copilots, and Flight Engineers",detailed,154640,15.8,Transportation and Material Moving
